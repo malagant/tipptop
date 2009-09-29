@@ -1,0 +1,12 @@
+development:
+  :address: smtp.rails-experts.com
+  :port: 25
+  :authentication: plain
+  :user_name: mjohann@rails-experts.com
+  :password: 6zz8i678
+production:
+  :address: smtp.server.com
+  :port: 25
+  :authentication: plain
+  :user_name: user
+  :password: pass
