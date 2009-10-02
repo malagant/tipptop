@@ -1,0 +1,18 @@
+<h1>Spielerdetails eingeben</h1>
+<% form_for(@gamer) do |f| %>
+    <p><%= f.label :firstname, "Vorname" %><br/>
+      <%= f.text_field :firstname %></p>
+    <p><%= f.label :lastname, "Nachname" %><br/>
+    <%= f.text_field :lastname %></p>
+    <p><%= f.label :street1, "Strasse 1" %><br/>
+    <%= f.text_field :street1 %></p>
+    <p><%= f.label :street2, "Strasse 2" %><br/>
+    <%= f.text_field :street2 %></p>
+    <p><%= f.label :zipcode, "PLZ" %><br/>
+    <%= f.text_field :zipcode %></p>
+    <p><%= f.label :city, "Stadt" %><br/>
+    <%= f.text_field :city %></p>
+    <p><%= f.label :country, "Land" %><br/>
+    <%= f.select :country, countries %></p>
+    <%= f.submit "Speichern" %>
+<% end %>

@@ -1,0 +1,8 @@
+<h1>Spielerdetails</h1>
+<p>
+   <%=h @gamer.firstname %> <%=h @gamer.lastname %><br/>
+   <%=h @gamer.street1 %><br/>
+   <%=h @gamer.street2 %><% unless @gamer.street2.blank? %><br/><% end %>
+   <%=h @gamer.zipcode %> <%=h @gamer.city %><br/>
+   <%=h @gamer.country %><br/>
+</p>

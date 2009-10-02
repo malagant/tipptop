@@ -1,0 +1,17 @@
+<h1>Liste der Spieler</h1>
+<table>
+  <thead>
+  <tr>
+    <th>Spieler</th>
+    <th>Email</th>
+    <th>Mitglied seit</th>
+  </tr>
+  </thead>
+  <% @accounts.each do |account| %>
+      <tr>
+        <td><% if account.gamer %><%= link_to "Spielerdetails", gamer_url(account.gamer) %><% else %>Kein Spieler<% end %></td>
+        <td><%= mail_to account.email %></td>
+        <td><%= h account.created_at.strftime("%d.%m.%Y") %></td>
+      </tr>
+  <% end %>
+</table>

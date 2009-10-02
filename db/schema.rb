@@ -9,7 +9,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091002093137) do
+ActiveRecord::Schema.define(:version => 20091002143856) do
+
+  create_table "gamers", :id => false, :force => true do |t|
+    t.integer  "id",         :limit => 11, :null => false
+    t.integer  "user_id"
+    t.string   "firstname"
+    t.string   "lastname"
+    t.string   "street1"
+    t.string   "street2"
+    t.string   "zipcode"
+    t.string   "city"
+    t.string   "country"
+    t.string   "phone"
+    t.string   "twitter"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "games", :id => false, :force => true do |t|
     t.integer  "id",             :limit => 11,                :null => false

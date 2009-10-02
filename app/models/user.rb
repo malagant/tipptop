@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
   include AASM
+  has_one :gamer
   acts_as_authentic
 
   attr_protected :status

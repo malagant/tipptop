@@ -3,6 +3,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resource :account, :only => :show
   map.resources :users
   map.resources :games
+  map.resources :gamers
   map.resources :groups, :has_many => :teams
   map.resources :teams
 
