@@ -1,4 +1,6 @@
 class Game < ActiveRecord::Base
+  validates_presence_of :gametime
+  
   include AASM
   belongs_to :stadium
   belongs_to :group

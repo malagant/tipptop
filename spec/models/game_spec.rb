@@ -4,12 +4,11 @@ describe Game do
   before(:each) do
     @valid_attributes = {
       :gametime => Time.now,
-      :city => "value for city",
-      :stadium => "value for stadium",
-      :teamOne => 1,
-      :teamTwo => 1,
-      :goalsTeamOne => 1,
-      :goalsTeamTwo => 1
+      :stadium => Stadium.new,
+      :team_one => Team.new,
+      :team_two => Team.new,
+      :goals_team_one => 1,
+      :goals_team_two => 1
     }
   end
 

@@ -12,13 +12,37 @@
   <component name="GemRequirementsHolder">
     <requirement>
       <requirement>
-        <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" />
+        <dependency name="mongrel" version="0" bound="GREATER_OR_EQUAL" />
       </requirement>
-      <source from="config/boot.rb" />
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="test-unit" version="1.2.3" bound="EQUAL" />
+      </requirement>
+      <source from="lib/tasks/rspec.rake" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="gem_plugin" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source manual="true" />
     </requirement>
     <requirement>
       <requirement>
         <dependency name="rubyist-aasm" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="authlogic" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rspec-rails" version="0" bound="GREATER_OR_EQUAL" />
       </requirement>
       <source from="config/environment.rb" />
     </requirement>
@@ -30,39 +54,15 @@
     </requirement>
     <requirement>
       <requirement>
-        <dependency name="gem_plugin" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rspec-rails" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <source from="config/environment.rb" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="test-unit" version="1.2.3" bound="EQUAL" />
-      </requirement>
-      <source from="lib/tasks/rspec.rake" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="authlogic" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <source from="config/environment.rb" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="mongrel" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
         <dependency name="rspec" version="0" bound="GREATER_OR_EQUAL" />
       </requirement>
       <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/boot.rb" />
     </requirement>
   </component>
   <component name="NewModuleRootManager">

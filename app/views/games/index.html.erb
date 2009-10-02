@@ -11,6 +11,7 @@
       <th>Gegner 1</th>
       <th>Gegner 2</th>
       <th>Spielstand</th>
+      <th>Tipp</th>
       </thead>
       <% group.games.each do |game| %>
           <tr>
@@ -20,6 +21,7 @@
             <td><%= game.team_one.position %></td>
             <td><%= game.team_two.position %></td>
             <td><%= game.goals_team_one %> : <%= game.goals_team_two %></td>
+            <td><%= link_to "Tippen" %></td>
           </tr>
     <% end %>
     </table>
@@ -36,6 +38,7 @@
       <th>Gegner 1</th>
       <th>Gegner 2</th>
       <th>Spielstand</th>
+      <th>Tipp</th>
       </thead>
       <% round.games.each do |game| %>
           <tr>
@@ -45,6 +48,7 @@
             <td><%= game.team_one ? game.team_one.country : "unbekannt" %></td>
             <td><%= game.team_two ? game.team_two.country : "unbekannt" %></td>
             <td><%= game.goals_team_one %> : <%= game.goals_team_two %></td>
+            <td><%= link_to "Tippen" %></td>
           </tr>
     <% end %>
     </table>

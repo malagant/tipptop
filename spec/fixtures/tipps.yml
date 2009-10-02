@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  gamer_id: 1
+  game_id: 1
+  goals_one: 1
+  goals: 1
+  status: MyString
+
+two:
+  gamer_id: 1
+  game_id: 1
+  goals_one: 1
+  goals: 1
+  status: MyString

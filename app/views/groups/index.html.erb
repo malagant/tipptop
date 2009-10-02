@@ -1,8 +1,11 @@
 <h1>Gruppen&uuml;bersicht</h1>
-<% @groups.each do |group| %>
-    <table width="100%">
+<% @groups.each do |group|
+    count = 0
+%>
+    <table>
       <thead>
-      <th align="left">Gruppe <%= h group.name %></th>
+      <tr>
+      <th colspan="2" align="left">Gruppe <%= h group.name %></th>
       <th>SP</th>
       <th>S</th>
       <th>U</th>
@@ -10,17 +13,19 @@
       <th>T:G</th>
       <th>P</th>
       </thead>
+      </tr>
       <tbody>
       <% group.teams.each do |team| %>
           <tr>
-            <td><%= image_tag(team.flag_uri) %><%=h team.country %></td>
-            <td><%=h team.games %></td>
-            <td><%=h team.wins %></td>
-            <td><%=h team.draw %></td>
-            <td><%=h team.losses %></td>
-            <td><%=h team.goals_won %></td>
-            <td><%=h team.goals_lost %></td>
-            <td><%=h team.points %></td>
+            <td><%= count += 1 %></td>
+            <td><%= image_tag(team.flag_uri) %><%= h team.country %></td>
+            <td><%= h team.games %></td>
+            <td><%= h team.wins %></td>
+            <td><%= h team.draw %></td>
+            <td><%= h team.losses %></td>
+            <td><%= h team.goals_won %></td>
+            <td><%= h team.goals_lost %></td>
+            <td><%= h team.points %></td>
           </tr>
       <% end %>
       </tbody>
