@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  country: MyString
+  group_id: 1
+  games: 1
+  wins: 1
+  draw: 1
+  losses: 1
+  goals_won: 1
+  goals_lost: 1
+  points: 1
+  place: 1
+
+two:
+  country: MyString
+  group_id: 1
+  games: 1
+  wins: 1
+  draw: 1
+  losses: 1
+  goals_won: 1
+  goals_lost: 1
+  points: 1
+  place: 1

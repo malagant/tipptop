@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  gametime: 2009-09-29 16:35:52
+  city: MyString
+  stadium: MyString
+  teamOne: 1
+  teamTwo: 1
+  goalsTeamOne: 1
+  goalsTeamTwo: 1
+
+two:
+  gametime: 2009-09-29 16:35:52
+  city: MyString
+  stadium: MyString
+  teamOne: 1
+  teamTwo: 1
+  goalsTeamOne: 1
+  goalsTeamTwo: 1

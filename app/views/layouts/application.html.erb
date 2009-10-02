@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+  <title></title>
+</head>
+<body>
+<div id="header">
+  <div id="logo">
+  </div>
+  <div id="login_info">
+    <%= render :partial => 'shared/login_info' %>
+  </div>
+</div>
+<div id="content">
+  <div id="flash">
+    <%= flash[:notice] %>
+  </div>
+  <%= yield %>
+</div>
+</body>
+</html>

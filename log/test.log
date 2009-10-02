@@ -1,0 +1,3 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mINSERT INTO `groups` (`name`, `created_at`, `updated_at`) VALUES('value for name', '2009-09-29 14:16:28', '2009-09-29 14:16:28')[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO `teams` (`country`, `flag_uri`, `group_id`, `games`, `wins`, `draw`, `losses`, `goals_won`, `goals_lost`, `points`, `place`, `created_at`, `updated_at`) VALUES('value for country', NULL, 1, 1, 1, 1, 1, 1, 1, 1, 1, '2009-09-29 14:16:28', '2009-09-29 14:16:28')[0m

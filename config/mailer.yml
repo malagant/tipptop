@@ -1,12 +1,17 @@
+# Test ohne echtes Versenden von Mails
 development:
-  :address: smtp.rails-experts.com
+  :delivery_method: test
+  :address: localhost
   :port: 25
   :authentication: plain
-  :user_name: mjohann@rails-experts.com
-  :password: 6zz8i678
+  :user_name: motu@tipptop.net
+  :password: wdlid
+
+#  ACHTUNG: Hier werden echte Emails versendet. Passwort sollte nicht herausgegeben werden 
 production:
-  :address: smtp.server.com
-  :port: 25
-  :authentication: plain
-  :user_name: user
-  :password: pass
+ :delivery_method: :smtp
+ :address: smtp.tipptop.net
+ :port: 25
+ :authentication: plain
+ :user_name: motu@tipptop.net
+ :password: topsecret
