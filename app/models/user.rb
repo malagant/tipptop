@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
-  acts_as_authentic
   include AASM
+  acts_as_authentic
 
   attr_protected :status
 

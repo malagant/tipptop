@@ -2,6 +2,7 @@ class CreateRounds < ActiveRecord::Migration
   def self.up
     create_table :rounds do |t|
       t.string :name
+      t.string :status
 
       t.timestamps
     end

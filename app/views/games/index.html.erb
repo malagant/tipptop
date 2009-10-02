@@ -24,3 +24,28 @@
     <% end %>
     </table>
 <% end %>
+<h2>Finalrunden</h2>
+<% @rounds.each do |round| %>
+    <% count = 0 %>
+    <h3><%=h round.name %></h3>
+    <table>
+      <thead>
+      <th>Nr.</th>
+      <th>Datum</th>
+      <th>Ort</th>
+      <th>Gegner 1</th>
+      <th>Gegner 2</th>
+      <th>Spielstand</th>
+      </thead>
+      <% round.games.each do |game| %>
+          <tr>
+            <td><%= count += 1 %></td>
+            <td><%= game.gametime.strftime("%d.%m.%Y %H:%M Uhr") %></td>
+            <td><%= game.stadium.name %></td>
+            <td><%= game.team_one ? game.team_one.country : "unbekannt" %></td>
+            <td><%= game.team_two ? game.team_two.country : "unbekannt" %></td>
+            <td><%= game.goals_team_one %> : <%= game.goals_team_two %></td>
+          </tr>
+    <% end %>
+    </table>
+<% end %>

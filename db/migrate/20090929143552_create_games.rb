@@ -1,7 +1,9 @@
 class CreateGames < ActiveRecord::Migration
   def self.up
     create_table :games do |t|
+      t.string :status
       t.integer :group_id
+      t.integer :round_id
       t.datetime :gametime
       t.integer :stadium_id
       t.integer :team_one

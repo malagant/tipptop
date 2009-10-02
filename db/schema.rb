@@ -13,7 +13,9 @@ ActiveRecord::Schema.define(:version => 20091002093137) do
 
   create_table "games", :id => false, :force => true do |t|
     t.integer  "id",             :limit => 11,                :null => false
+    t.string   "status"
     t.integer  "group_id"
+    t.integer  "round_id"
     t.datetime "gametime"
     t.integer  "stadium_id"
     t.integer  "team_one"
@@ -27,6 +29,7 @@ ActiveRecord::Schema.define(:version => 20091002093137) do
   create_table "groups", :id => false, :force => true do |t|
     t.integer  "id",         :limit => 11, :null => false
     t.string   "name"
+    t.string   "status"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -34,6 +37,7 @@ ActiveRecord::Schema.define(:version => 20091002093137) do
   create_table "rounds", :id => false, :force => true do |t|
     t.integer  "id",         :limit => 11, :null => false
     t.string   "name"
+    t.string   "status"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -49,7 +53,7 @@ ActiveRecord::Schema.define(:version => 20091002093137) do
   create_table "teams", :id => false, :force => true do |t|
     t.integer  "id",         :limit => 11,                 :null => false
     t.string   "position"
-    t.integer  "round"
+    t.integer  "round_id"
     t.string   "country",                  :default => ""
     t.string   "flag_uri",                 :default => ""
     t.integer  "group_id"

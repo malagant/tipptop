@@ -2,7 +2,7 @@ class CreateTeams < ActiveRecord::Migration
   def self.up
     create_table :teams do |t|
       t.string :position
-      t.integer :round
+      t.integer :round_id
       t.string :country, :default => ""
       t.string :flag_uri, :default => ""
       t.integer :group_id

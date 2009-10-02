@@ -432,4 +432,119 @@ game.save!
 achtelfinale  = Round.create(:name => "Achtelfinale")
 viertelfinale = Round.create(:name => "Viertelfinale")
 halbfinale    = Round.create(:name => "Halbfinale")
-finale        = Round.create(:name => "finale")
+finale34      = Round.create(:name => "Finale 3. und 4. Platz")
+finale        = Round.create(:name => "Finale")
+
+# Achtelfinale
+game = Game.new( :gametime => '2010-06-26T00:00:00Z')
+game.stadium = Stadium.find_by_name("Nelson Mandela Bay/Port Elizabeth")
+game.team_one = gruppe_a.leader
+game.team_two = gruppe_b.second_leader
+
+achtelfinale.games << game
+
+game = Game.new( :gametime => '2010-06-26T00:00:00Z')
+game.stadium = Stadium.find_by_name("Rustenburg")
+game.team_one = gruppe_c.leader
+game.team_two = gruppe_d.second_leader
+
+achtelfinale.games << game
+
+game = Game.new( :gametime => '2010-06-27T00:00:00Z')
+game.stadium = Stadium.find_by_name("Johannesburg (Soccer City)")
+game.team_one = gruppe_b.leader
+game.team_two = gruppe_a.second_leader
+
+achtelfinale.games << game
+
+game = Game.new( :gametime => '2010-06-27T00:00:00Z')
+game.stadium = Stadium.find_by_name("Mangaung/Bloemfontein")
+game.team_one = gruppe_d.leader
+game.team_two = gruppe_c.second_leader
+
+achtelfinale.games << game
+
+game = Game.new( :gametime => '2010-06-28T00:00:00Z')
+game.stadium = Stadium.find_by_name("Durban")
+game.team_one = gruppe_e.leader
+game.team_two = gruppe_f.second_leader
+
+achtelfinale.games << game
+
+game = Game.new( :gametime => '2010-06-28T00:00:00Z')
+game.stadium = Stadium.find_by_name("Johannesburg (Ellis-Park-Stadion)")
+game.team_one = gruppe_g.leader
+game.team_two = gruppe_h.second_leader
+
+achtelfinale.games << game
+
+game = Game.new( :gametime => '2010-06-29T00:00:00Z')
+game.stadium = Stadium.find_by_name("Tshwane/Pretoria")
+game.team_one = gruppe_f.leader
+game.team_two = gruppe_e.second_leader
+
+achtelfinale.games << game
+
+game = Game.new( :gametime => '2010-06-29T00:00:00Z')
+game.stadium = Stadium.find_by_name("Kapstadt")
+game.team_one = gruppe_h.leader
+game.team_two = gruppe_g.second_leader
+
+achtelfinale.games << game
+
+#Viertelfinale
+game = Game.new( :gametime => '2010-07-02T00:00:00Z')
+game.stadium = Stadium.find_by_name("Johannesburg (Soccer City)")
+game.team_one = achtelfinale.leader
+game.team_two = achtelfinale.second_leader
+
+viertelfinale.games << game
+
+game = Game.new( :gametime => '2010-07-02T00:00:00Z')
+game.stadium = Stadium.find_by_name("Nelson Mandela Bay/Port Elizabeth")
+game.team_one = achtelfinale.fifth_place
+game.team_two = achtelfinale.sixth_place
+
+viertelfinale.games << game
+
+game = Game.new( :gametime => '2010-07-03T00:00:00Z')
+game.stadium = Stadium.find_by_name("Kapstadt")
+game.team_one = achtelfinale.third_place
+game.team_two = achtelfinale.fourth_place
+
+viertelfinale.games << game
+
+game = Game.new( :gametime => '2010-07-03T00:00:00Z')
+game.stadium = Stadium.find_by_name("Johannesburg (Ellis-Park-Stadion)")
+game.team_one = achtelfinale.seventh_place
+game.team_two = achtelfinale.eighth_place
+
+viertelfinale.games << game
+
+# Halbfinale
+game = Game.new( :gametime => '2010-07-06T00:00:00Z')
+game.stadium = Stadium.find_by_name("Kapstadt")
+game.team_one = viertelfinale.leader
+game.team_two = viertelfinale.second_leader
+
+halbfinale.games << game
+
+game = Game.new( :gametime => '2010-07-10T00:00:00Z')
+game.stadium = Stadium.find_by_name("Durban")
+game.team_one = halbfinale.third_place
+game.team_two = halbfinale.fourth_place
+
+finale34.games << game
+
+# Spiel um 3. und 4. Platzierung
+
+# Finale, Ooooohhhooooo!!!
+game = Game.new( :gametime => '2010-07-11T00:00:00Z')
+game.stadium = Stadium.find_by_name("Johannesburg (Soccer City)")
+game.team_one = halbfinale.leader
+game.team_two = halbfinale.second_leader
+
+finale.games << game
+
+
+
