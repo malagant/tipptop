@@ -21,7 +21,7 @@
             <td><%= game.team_one.position %></td>
             <td><%= game.team_two.position %></td>
             <td><%= game.goals_team_one %> : <%= game.goals_team_two %></td>
-            <td><%= link_to "Tippen" %></td>
+            <td><%= tipp_helper(game)  %></td>
           </tr>
     <% end %>
     </table>
@@ -48,7 +48,7 @@
             <td><%= game.team_one ? game.team_one.country : "unbekannt" %></td>
             <td><%= game.team_two ? game.team_two.country : "unbekannt" %></td>
             <td><%= game.goals_team_one %> : <%= game.goals_team_two %></td>
-            <td><%= link_to "Tippen" %></td>
+            <td><%= tipp_helper(game) %></td>
           </tr>
     <% end %>
     </table>

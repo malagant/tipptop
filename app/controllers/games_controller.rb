@@ -1,6 +1,6 @@
 class GamesController < ApplicationController
   def index
-    @groups = Group.all
-    @rounds = Round.all
+    @groups = Group.find(:all, :include => [:games, :teams])
+    @rounds = Round.find(:all, :include => [:games, :teams])
   end
 end

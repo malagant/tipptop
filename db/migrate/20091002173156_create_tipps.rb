@@ -4,7 +4,7 @@ class CreateTipps < ActiveRecord::Migration
       t.integer :gamer_id
       t.integer :game_id
       t.integer :goals_one
-      t.integer :goals
+      t.integer :goals_two
       t.string :status
 
       t.timestamps

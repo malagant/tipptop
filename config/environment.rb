@@ -14,6 +14,7 @@ Rails::Initializer.run do |config|
   # Add additional load paths for your own custom dirs
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
   #config.gem 'activerecord-jdbcmysql-adapter'
+  #config.gem 'activerecord-jdbcderby-adapter'
   config.gem 'authlogic'
   config.gem 'rubyist-aasm', :lib => 'aasm'
   config.gem 'rspec', :lib => 'spec'

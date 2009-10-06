@@ -7,7 +7,7 @@ class GamersController < ApplicationController
   end
 
   def show
-    @gamer = Gamer.find(params[:id])
+    @gamer = Gamer.find_by_user_id(params[:user_id])
   end
   
   def edit
@@ -32,7 +32,7 @@ class GamersController < ApplicationController
     respond_to do |format|
       if @gamer.update_attributes(params[:gamer])
         flash[:notice] = 'Die Spielerdetails wurden erfolgreich aktualisiert.'
-        format.html { redirect_to(@gamer) }
+        format.html { redirect_to user_gamer_url(@gamer) }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

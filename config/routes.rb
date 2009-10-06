@@ -1,8 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :user_sessions
   map.resource :account, :only => :show
-  map.resources :users
-  map.resources :games
+  map.resources :users, :has_one => :gamer
+  map.resources :games, :has_many => :tipps
   map.resources :gamers, :has_many => :tipps
   map.resources :groups, :has_many => :teams
   map.resources :teams

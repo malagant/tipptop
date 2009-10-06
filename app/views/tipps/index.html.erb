@@ -1,4 +1,6 @@
 <h1>Meine Tipps</h1>
 <% @tipps.each do |tipp| %>
-    <%= tipp.goals_one %> : <%= tipp.goals_two %>    
+    <p><%= team_helper(tipp.game.team_one) %> : <%= team_helper(tipp.game.team_two) %><br/>
+    <%= tipp.goals_one %> : <%= tipp.goals_two %><br/></p>
+    <%= link_to "Bearbeiten", edit_game_tipp_url(tipp.game, tipp) %>
 <% end %>

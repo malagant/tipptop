@@ -1,3 +1,4 @@
 <h1>Mein Account</h1>
-<%= link_to "Bearbeiten", edit_gamer_url(current_user) %><br/>
-<%= link_to "Meine Tipps", gamer_tipps_url(current_user) %><br/>
+<%= link_to "Spielerdetails bearbeiten", edit_user_gamer_url(current_user) if current_user.gamer %><br/>
+<%= link_to "Spielerdetails anlegen", new_user_gamer_url(current_user) unless current_user.gamer %><br/>
+<%= link_to "Meine Tipps", gamer_tipps_url(current_user.gamer) %><br/>

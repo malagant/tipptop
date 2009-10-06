@@ -11,8 +11,7 @@
 
 ActiveRecord::Schema.define(:version => 20091002173156) do
 
-  create_table "gamers", :id => false, :force => true do |t|
-    t.integer  "id",         :limit => 11, :null => false
+  create_table "gamers", :force => true do |t|
     t.integer  "user_id"
     t.string   "firstname"
     t.string   "lastname"
@@ -27,8 +26,7 @@ ActiveRecord::Schema.define(:version => 20091002173156) do
     t.datetime "updated_at"
   end
 
-  create_table "games", :id => false, :force => true do |t|
-    t.integer  "id",             :limit => 11,                :null => false
+  create_table "games", :force => true do |t|
     t.string   "status"
     t.integer  "group_id"
     t.integer  "round_id"
@@ -36,57 +34,52 @@ ActiveRecord::Schema.define(:version => 20091002173156) do
     t.integer  "stadium_id"
     t.integer  "team_one"
     t.integer  "team_two"
-    t.integer  "goals_team_one",               :default => 0
-    t.integer  "goals_team_two",               :default => 0
+    t.integer  "goals_team_one", :default => 0
+    t.integer  "goals_team_two", :default => 0
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "groups", :id => false, :force => true do |t|
-    t.integer  "id",         :limit => 11, :null => false
+  create_table "groups", :force => true do |t|
     t.string   "name"
     t.string   "status"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "rounds", :id => false, :force => true do |t|
-    t.integer  "id",         :limit => 11, :null => false
+  create_table "rounds", :force => true do |t|
     t.string   "name"
     t.string   "status"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "stadia", :id => false, :force => true do |t|
-    t.integer  "id",         :limit => 11, :null => false
+  create_table "stadia", :force => true do |t|
     t.string   "name"
     t.string   "city"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "teams", :id => false, :force => true do |t|
-    t.integer  "id",         :limit => 11,                 :null => false
+  create_table "teams", :force => true do |t|
     t.string   "position"
     t.integer  "round_id"
-    t.string   "country",                  :default => ""
-    t.string   "flag_uri",                 :default => ""
+    t.string   "country",    :default => ""
+    t.string   "flag_uri",   :default => ""
     t.integer  "group_id"
-    t.integer  "games",                    :default => 0
-    t.integer  "wins",                     :default => 0
-    t.integer  "draw",                     :default => 0
-    t.integer  "losses",                   :default => 0
-    t.integer  "goals_won",                :default => 0
-    t.integer  "goals_lost",               :default => 0
-    t.integer  "points",                   :default => 0
-    t.integer  "place",                    :default => 0
+    t.integer  "games",      :default => 0
+    t.integer  "wins",       :default => 0
+    t.integer  "draw",       :default => 0
+    t.integer  "losses",     :default => 0
+    t.integer  "goals_won",  :default => 0
+    t.integer  "goals_lost", :default => 0
+    t.integer  "points",     :default => 0
+    t.integer  "place",      :default => 0
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "tipps", :id => false, :force => true do |t|
-    t.integer  "id",         :limit => 11, :null => false
+  create_table "tipps", :force => true do |t|
     t.integer  "gamer_id"
     t.integer  "game_id"
     t.integer  "goals_one"
@@ -96,14 +89,13 @@ ActiveRecord::Schema.define(:version => 20091002173156) do
     t.datetime "updated_at"
   end
 
-  create_table "users", :id => false, :force => true do |t|
-    t.integer  "id",                :limit => 11,                        :null => false
-    t.string   "email",                                                  :null => false
-    t.string   "crypted_password",                                       :null => false
-    t.string   "persistence_token",                                      :null => false
+  create_table "users", :force => true do |t|
+    t.string   "email",                                    :null => false
+    t.string   "crypted_password",                         :null => false
+    t.string   "persistence_token",                        :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "status",                          :default => "pending"
+    t.string   "status",            :default => "pending"
     t.string   "perishable_token"
   end
 
