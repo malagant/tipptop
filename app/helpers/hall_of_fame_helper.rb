@@ -1,0 +1,2 @@
+module HallOfFameHelper
+end
