@@ -1,0 +1,9 @@
+<h1>Hall of Fame</h1>
+<% @gamers.each do |gamer| %>
+    <%= h gamer.firstname + " " + gamer.lastname %>
+    <% gamer.tipps.each do |tipp| %>
+        <%=h tipp.goals_one %> : 
+        <%=h tipp.goals_two %>
+    <% end %>
+    <%=h gamer.points %>
+<% end %>

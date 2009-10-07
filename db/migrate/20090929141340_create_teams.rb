@@ -14,7 +14,8 @@ class CreateTeams < ActiveRecord::Migration
       t.integer :goals_lost, :default => 0
       t.integer :points, :default => 0
       t.integer :place, :default => 0
-
+      t.string :status
+      
       t.timestamps
     end
   end

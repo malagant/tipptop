@@ -6,6 +6,15 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :gamers, :has_many => :tipps
   map.resources :groups, :has_many => :teams
   map.resources :teams
+  map.resources :hall_of_fame, :only => :index
+
+  map.game_start 'games/:id/start', :controller => 'games',
+                 :action => 'start',
+                 :conditions => { :method => :put} 
+
+  map.game_finish 'games/:id/finish', :controller => 'games',
+                 :action => 'finish',
+                 :conditions => { :method => :put}
 
   map.confirmation 'confirmation/:confirmation_code',
                    :controller => 'users',
@@ -15,7 +24,8 @@ ActionController::Routing::Routes.draw do |map|
   map.signup 'signup', :controller => 'users', :action => 'new'
   map.login 'login', :controller => 'user_sessions', :action => 'new'
   map.logout 'logout', :controller => 'user_sessions', :action => 'destroy'
-  
+
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

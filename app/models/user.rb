@@ -1,5 +1,7 @@
 class User < ActiveRecord::Base
   include AASM
+  has_role
+  
   has_one :gamer
   acts_as_authentic
 

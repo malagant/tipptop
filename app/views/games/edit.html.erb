@@ -1,0 +1,13 @@
+<h1>Spiel bearbeiten</h1>
+<% if @game.pending? %>
+    <%= link_to "Spiel starten", game_start_url(@game), :method => :put %>
+<% end %>
+<% if @game.started? %>
+    <%= link_to "Spiel beenden", game_finish_url(@game), :method => :put %>
+<% elsif @game.finished? %>
+    Spiel ist beendet
+<% else %>
+    <% form_for(@game) do |f| %>
+        <p><%= f.collection_select :team_one, team_list, :id, :country %> gegen <%= f.collection_select :team_two, team_list, :id, :country %></p> <p><%= f.submit "Speichern" %></p>
+    <% end %>
+<% end %>

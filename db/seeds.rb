@@ -1,10 +1,19 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#   
-#   cities = City.create!([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
-#   Major.create!(:name => 'Daley', :city => cities.first)
+# admin user erstellen
+
+u = User.create(:email => "admin@tipptop.net", :password => "topsecret", :password_confirmation => "topsecret", :role_name => 'admin')
+u.confirm!
+u.reset_perishable_token!
+
+# Einen normalen user anlegen
+guest = User.create(:email => "bla@bla.com", :password => "topsecret", :password_confirmation => "topsecret")
+guest.confirm!
+guest.reset_perishable_token!
+
+# Einen gamer anlegen
+mjohann = User.create(:email => "mjohann@rails-experts.com", :password => "topsecret", :password_confirmation => "topsecret")
+gamer = mjohann.build_gamer(:firstname => "Michael", :lastname => "Johann", :street1 => "Papeneschstr. 27a", :zipcode => "48565", :city => "Steinfurt", :country => "Deutschland")
+mjohann.role_name = 'gamer'
+gamer.save!
 
 #Gruppen erstellen
 gruppe_a = Group.create!(:name => 'A')

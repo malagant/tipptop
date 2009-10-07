@@ -2,12 +2,11 @@ class GamersController < ApplicationController
   before_filter :require_user
   
   def new
-    @gamer = Gamer.new
-    @gamer.user = current_user
+    @gamer = current_user.gamer.new
   end
 
   def show
-    @gamer = Gamer.find_by_user_id(params[:user_id])
+    @gamer = current_user.gamer
   end
   
   def edit
@@ -28,7 +27,8 @@ class GamersController < ApplicationController
 
   def update
     @gamer = current_user.gamer
-
+    @gamer.role_name = 'gamer'
+    
     respond_to do |format|
       if @gamer.update_attributes(params[:gamer])
         flash[:notice] = 'Die Spielerdetails wurden erfolgreich aktualisiert.'

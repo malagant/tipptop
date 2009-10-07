@@ -1,5 +1,9 @@
 class Game < ActiveRecord::Base
   validates_presence_of :gametime
+
+  def validate
+    errors.add("team_two", ",muss eine andere Mannschaft sein.") unless team_one != team_two
+  end
   
   include AASM
   belongs_to :stadium
@@ -29,5 +33,21 @@ class Game < ActiveRecord::Base
 
   def teams
     [team_one, team_two]
+  end
+
+  def add_goal_for_team_one
+    self.goals_team_one += 1
+  end
+
+  def add_goal_for_team_two
+    self.goals_team_one += 1
+  end
+
+  def remove_goal_for_team_one
+    self.goals_team_one -= 1
+  end
+
+  def remove_goal_for_team_two
+    self.goals_team_one -= 1
   end
 end

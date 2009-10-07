@@ -12,63 +12,24 @@
   <component name="GemRequirementsHolder">
     <requirement>
       <requirement>
-        <dependency name="cucumber" version="0" bound="GREATER_OR_EQUAL" />
+        <dependency name="rack-test" version="0.5.0" bound="GREATER_OR_EQUAL" />
       </requirement>
-      <source from="config/environment.rb" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rspec-rails" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <source from="config/environment.rb" />
+      <source from="vendor/gems/cucumber-0.3.104/examples/ramaze/features/support/env.rb" />
+      <source from="vendor/gems/cucumber-0.3.104/examples/sinatra/features/support/env.rb" />
     </requirement>
     <requirement>
       <requirement>
         <dependency name="test-unit" version="1.2.3" bound="EQUAL" />
       </requirement>
       <source from="lib/tasks/rspec.rake" />
+      <source from="vendor/gems/rspec-1.2.8/lib/spec/interop/test.rb" />
+      <source from="vendor/gems/rspec-rails-1.2.7.1/generators/rspec/templates/rspec.rake" />
     </requirement>
     <requirement>
       <requirement>
-        <dependency name="authlogic" version="0" bound="GREATER_OR_EQUAL" />
+        <dependency name="builder" version="0" bound="GREATER_OR_EQUAL" />
       </requirement>
-      <source from="config/environment.rb" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="gem_plugin" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rspec" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <source from="config/environment.rb" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <source from="config/boot.rb" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="jdbc-mysql" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="activerecord-jdbcmysql-adapter" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="mongrel" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <source manual="true" />
+      <source from="vendor/gems/cucumber-0.3.104/lib/cucumber/formatter/ordered_xml_markup.rb" />
     </requirement>
     <requirement>
       <requirement>
@@ -78,9 +39,144 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="aslakhellesoy-ansicolor" version="1.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/cucumber-0.3.104/lib/cucumber/formatter/ansicolor.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rspec-rails" version="1.2.7.1" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/cucumber-0.3.104/rails_generators/cucumber/templates/cucumber_environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="ramaze" version="2009.07" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/cucumber-0.3.104/examples/ramaze/features/support/env.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rspec" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/environment.rb" />
+      <source from="vendor/gems/cucumber-0.3.104/spec/spec_helper.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="authlogic" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="spork" version="0.5.9" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/cucumber-0.3.104/features/support/env.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="gem_plugin" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rspec-rails" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/boot.rb" />
+      <source from="vendor/gems/makandra-aegis-1.1.2/test/app_root/config/boot.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="activerecord-jdbcmysql-adapter" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="win32console" version="1.2.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/cucumber-0.3.104/lib/cucumber/formatter/ansicolor.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="makandra-aegis" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="genki-ruby-terminfo" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/cucumber-0.3.104/lib/cucumber/formatter/ansicolor.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="webrat" version="0.5.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/cucumber-0.3.104/rails_generators/cucumber/templates/cucumber_environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="term-ansicolor" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/cucumber-0.3.104/lib/cucumber/formatter/ansicolor.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="hoe" version="2.0.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/rspec-rails-1.2.7.1/Rakefile" />
+      <source from="vendor/gems/rspec-1.2.8/Rakefile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="rubyist-aasm" version="0" bound="GREATER_OR_EQUAL" />
       </requirement>
       <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="treetop" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/cucumber-0.3.104/lib/cucumber/parser/treetop_ext.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mongrel" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="sinatra" version="0.9.4" bound="EQUAL" />
+      </requirement>
+      <source from="vendor/gems/cucumber-0.3.104/examples/sinatra/features/support/env.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="cucumber" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="jdbc-mysql" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="webrat" version="0.5.3" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="vendor/gems/cucumber-0.3.104/examples/ramaze/features/support/env.rb" />
     </requirement>
   </component>
   <component name="NewModuleRootManager">
@@ -104,18 +200,16 @@
     <orderEntry type="library" name="[gem] jdbc-mysql (v5.0.4, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/jdbc-mysql-5.0.4)" level="application" />
     <orderEntry type="library" name="[gem] activerecord-jdbc-adapter (v0.9.2, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.2)" level="application" />
     <orderEntry type="library" name="[gem] activerecord-jdbcmysql-adapter (v0.9.2, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/activerecord-jdbcmysql-adapter-0.9.2)" level="application" />
+    <orderEntry type="library" name="[gem] mongrel (v1.1.5, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java)" level="application" />
+    <orderEntry type="library" name="[gem] gem_plugin (v0.2.3, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/gem_plugin-0.2.3)" level="application" />
+    <orderEntry type="library" name="[gem] activerecord (v2.3.4, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4)" level="application" />
     <orderEntry type="library" name="[gem] actionpack (v2.3.4, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4)" level="application" />
     <orderEntry type="library" name="[gem] rake (v0.8.7, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/rake-0.8.7)" level="application" />
     <orderEntry type="library" name="[gem] rails (v2.3.4, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/rails-2.3.4)" level="application" />
-    <orderEntry type="library" name="[gem] activerecord (v2.3.4, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4)" level="application" />
-    <orderEntry type="library" name="[gem] activeresource (v2.3.4, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/activeresource-2.3.4)" level="application" />
     <orderEntry type="library" name="[gem] actionmailer (v2.3.4, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/actionmailer-2.3.4)" level="application" />
+    <orderEntry type="library" name="[gem] activeresource (v2.3.4, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/activeresource-2.3.4)" level="application" />
     <orderEntry type="library" name="[gem] activesupport (v2.3.4, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4)" level="application" />
-    <orderEntry type="library" name="[gem] mongrel (v1.1.5, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java)" level="application" />
-    <orderEntry type="library" name="[gem] gem_plugin (v0.2.3, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/gem_plugin-0.2.3)" level="application" />
-    <orderEntry type="library" name="[gem] test-unit (v1.2.3, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/test-unit-1.2.3)" level="application" />
-    <orderEntry type="library" name="[gem] hoe (v2.3.3, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/hoe-2.3.3)" level="application" />
-    <orderEntry type="library" name="[gem] rubyforge (v2.0.0, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/rubyforge-2.0.0)" level="application" />
+    <orderEntry type="library" name="[gem] makandra-aegis (v1.1.2, /Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/makandra-aegis-1.1.2)" level="application" />
   </component>
   <component name="RModuleSettingsStorage" number="0" />
 </module>

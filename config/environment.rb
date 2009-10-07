@@ -16,6 +16,7 @@ Rails::Initializer.run do |config|
   #config.gem 'activerecord-jdbcmysql-adapter'
   #config.gem 'activerecord-jdbcderby-adapter'
   config.gem 'authlogic'
+  config.gem 'makandra-aegis', :lib => 'aegis'
   config.gem 'rubyist-aasm', :lib => 'aasm'
   config.gem 'rspec', :lib => 'spec'
   config.gem 'rspec-rails', :lib => 'spec'
