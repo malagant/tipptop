@@ -617,6 +617,13 @@ module ActiveRecord #:nodoc:
         end
       end
 
+
+      # MONKEY_PATCH for Derby Support
+      def find_by_id(*args)
+        find_from_ids(args, args.extract_options!)
+      end
+
+
       # A convenience wrapper for <tt>find(:first, *args)</tt>. You can pass in all the
       # same arguments to this method as you can to <tt>find(:first)</tt>.
       def first(*args)

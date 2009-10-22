@@ -6,20 +6,21 @@
     <table>
       <% group.games.each do |game| %>
           <tr>
-            <td align="left"><strong><%= game.gametime.strftime("%d.%m.%Y %H:%M Uhr") %></strong></td>
+            <td align="left"><strong><%= l game.gametime %></strong></td>
             <td colspan="2" align="left"><strong><%= game.stadium.name %></strong></td>
           </tr>
           <tr>
-            <td colspan ="3">
+            <td colspan="3">
               <%= team_helper(game.team_one) %>
-              <%= image_tag(game.team_one.flag_uri) %>    <%= game.goals_team_one %> : <%= game.goals_team_two %>    <%= image_tag(game.team_two.flag_uri) %>
+              <%= image_tag(game.team_one.flag_uri) %>    <%= game.goals_team_one %>
+              : <%= game.goals_team_two %>    <%= image_tag(game.team_two.flag_uri) %>
               <%= team_helper(game.team_two) %>
             </td>
 
             <% unless is_admin? %>
                 <td><%= tipp_helper(game) %></td>
-                <% else %>
-            <td><%= link_to image_tag("/images/edit.jpg", :title => "Bearbeiten"), edit_game_url(game) %></td>
+            <% else %>
+                <td><%= link_to image_tag("/images/edit.jpg", :title => "Bearbeiten"), edit_game_url(game) %></td>
             <% end %>
           </tr>
       <% end %>
@@ -27,34 +28,25 @@
 <% end %>
 <h3>Finalrunden</h3>
 <% @rounds.each do |round| %>
-    <% count = 0 %>
-    <h3><%= h round.name %></h3>
+    <h4><%= h round.name %></h4>
     <table>
-      <thead>
-      <th>Nr.</th>
-      <th>Datum</th>
-      <th>Ort</th>
-      <th>Gegner 1</th>
-      <th>Gegner 2</th>
-      <th>Spielstand</th>
-      <% unless is_admin? %>
-          <th>Tipp</th>
-      <% end %>
-      </thead>
       <% round.games.each do |game| %>
           <tr>
-            <% if logged_in? && current_user.may_edit_game? %>
-                <td><%= link_to "#{count +=1}", edit_game_url(game) %></td>
-            <% else %>
-                <td><%= count += 1 %></td>
-            <% end %>
-            <td><%= game.gametime.strftime("%d.%m.%Y %H:%M Uhr") %></td>
-            <td><%= game.stadium.name %></td>
-            <td><%= game.team_one ? game.team_one.country : "unbekannt" %></td>
-            <td><%= game.team_two ? game.team_two.country : "unbekannt" %></td>
-            <td><%= game.goals_team_one %> : <%= game.goals_team_two %></td>
+            <td align="left"><strong><%= l game.gametime %></strong></td>
+            <td colspan="2" align="left"><strong><%= game.stadium.name %></strong></td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <%= team_helper(game.team_one) %>
+              <%= image_tag(game.team_one.flag_uri) if game.team_one %>    <%= game.goals_team_one %>
+              : <%= game.goals_team_two %>    <%= image_tag(game.team_two.flag_uri) if game.team_two %>
+              <%= team_helper(game.team_two) %>
+            </td>
+
             <% unless is_admin? %>
                 <td><%= tipp_helper(game) %></td>
+            <% else %>
+                <td><%= link_to image_tag("/images/edit.jpg", :title => "Bearbeiten"), edit_game_url(game) %></td>
             <% end %>
           </tr>
       <% end %>

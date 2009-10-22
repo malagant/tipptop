@@ -1,6 +1,6 @@
 module TeamsHelper
   def team_helper(team)
-     team.country.blank? ? "unbekannt" : team.country
+     (team && team.country) ? team.country : "unbekannt"
   end
 
   def team_list

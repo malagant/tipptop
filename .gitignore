@@ -3,3 +3,4 @@ tipptop_development
 derby*
 tmp/**/*
 .idea
+db/schema.rb

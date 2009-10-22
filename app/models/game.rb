@@ -1,9 +1,5 @@
 class Game < ActiveRecord::Base
   validates_presence_of :gametime
-
-  def validate
-    errors.add("team_two", ",muss eine andere Mannschaft sein.") unless team_one != team_two
-  end
   
   include AASM
   belongs_to :stadium
