@@ -1,13 +1,18 @@
-<h1>Register</h1>
-<% form_for @user do |f| %>
+<h2>Registrieren Sie sich bitte unten.</h2>
+<% form_for(@user) do |f| %>
+
     <%= f.error_messages %>
-    <%= f.label :email %>
+    <%= f.label :email, "Emailadresse" %>
+    <br/>
     <%= f.text_field :email %>
-    <%= f.label :password %>
+    <br/>
+    <%= f.label :password, "Passwort" %>
+    <br/>
     <%= f.password_field :password %>
-    <%= f.label :password_confirmation %>
+    <br/>
+    <%= f.label :password_confirmation, "Passwortwiederholung" %><br/>
     <%= f.password_field :password_confirmation %>
-    <fieldset class="buttons">
-      <%= f.submit 'Register!' %>
-    </fieldset>
+    <br/>
+    <br/>
+    <%= f.submit 'Abschicken' %>
 <% end %>

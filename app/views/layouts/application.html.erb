@@ -1,27 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html
-        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : EarthlingTwo
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20090918
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title></title>
+  <meta name="keywords" content=""/>
+  <meta name="description" content=""/>
+  <meta http-equiv="content-Type" content="text/html; charset=iso-8859-1">
+  <title>TippTop - Das Tippspiel für die WM 2010</title>
+  <%= stylesheet_link_tag 'styles' %>
 </head>
 <body>
-<div id="header">
-  <div id="logo">
+<div id="wrapper">
+  <div id="header">
+    <div id="logo">
+      <h1><a href="#">tippTop</a></h1>
+
+      <p>Das Tippspiel von <a href="http://www.rails-experts.com">Michael Johann</a>
+    </div>
   </div>
-  <div id="login_info">
-    <%= render :partial => 'shared/login_info' %>
+  <!-- end #header -->
+  <div id="menu">
+    <%= render :partial => 'shared/main_menu' %>
+  </div>
+  <!-- end #menu -->
+  <div id="page">
+    <div id="content">
+      <%= render :partial => 'shared/login_info' %>
+      <div class="post">
+        <%= flash[:notice] %>
+        <%= yield %>
+      </div>
+      <div style="clear: both;">&nbsp;</div>
+    </div>
+    <!-- end #content -->
+    <div id="sidebar">
+      <%= render :partial => 'shared/twitter' %>
+      <%= render :partial => 'shared/news' %>
+    </div>
+    <!-- end #sidebar -->
+    <div style="clear: both;">&nbsp;</div>
+  </div>
+  <!-- end #page -->
+</div>
+<div id="footer-content">
+  <div class="column1">
+    <h2>Hinweise zu den Spielregeln</h2>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  </p>
+  </div>
+  <div class="column2">
+    <ul class="list">
+    </ul>
   </div>
 </div>
-<div id="menu">
-  <%= render :partial => 'shared/main_menu' %>
+<div id="footer">
+  <p> (c) 2009 <a href="http://www.rails-experts.com">rails-experts.com</a>. Design by <a href="http://www.nodethirtythree.com">nodethirtythree</a> and
+    <a href="http://www.freecsstemplates.org">Free CSS Templates</a>.</p>
 </div>
-<div id="content">
-  <div id="flash">
-    <%= flash[:notice] %>
-  </div>
-  <%= yield %>
-</div>
+<!-- end #footer -->
 </body>
 </html>

@@ -31,9 +31,11 @@ class ApplicationController < ActionController::Base
     not current_user.nil?
   end
 
+
   def require_admin
-    unless require_user && current_user.role_name == 'admin'
-      flash[:notice] = 'Diese Funktion ist nur für Administratoren.'
+    unless current_user && current_user.role_name == 'admin'
+      flash[:notice] = 'Diese Funktion ist nur fŸr Administratoren.'
+      redirect_to new_user_session_url
       return false
     end
   end

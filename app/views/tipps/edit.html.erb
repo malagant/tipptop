@@ -1,2 +1,5 @@
-<h1>Tipps#edit</h1>
-<p>Find me in app/views/tipps/edit.html.erb</p>
+<%= error_messages_for(:tipp) %>
+<h2>Tipp bearbeiten</h2>
+<%= render :partial => 'form' %>
+<br/>
+<%= link_to "Zur&uuml;ck", games_url %>

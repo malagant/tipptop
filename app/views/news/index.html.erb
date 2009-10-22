@@ -1,0 +1,22 @@
+<h2>Aktuelle Nachrichten</h2>
+
+<% @news.each do |news| %>
+    <tr>
+    <h2><%= h news.headline %></h2>
+    <p>
+      <%= h news.text %>
+    </p>
+    <%= link_to 'Anzeigen', news_item_path(news) %>
+    <% if is_admin? %>
+        <%= link_to 'Bearbeiten', edit_news_item_path(news) %>
+        <%= link_to 'L&ouml;schen', news_item_path(news), :confirm => 'Wirklich?', :method => :delete %>
+    <% end %>
+<% end %>
+
+<p>
+  <br/>
+  <br/>
+  <% if is_admin? %>
+      <%= link_to 'Neue Nachricht...', new_news_item_path %>
+  <% end %>
+</p>

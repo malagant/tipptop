@@ -1,0 +1,346 @@
+/* @override http://www.realmacsoftware.com/socialite/rw_common/themes/socialte/css/styles.css */
+
+/*
+	Author:			Ben Counsell / Realmac Software
+	Author URL:		http://www.realmacsoftware.com
+	Last Update:	6/10/2009
+*/
+
+/* @group Fonts */
+
+/* All Fonts by Jos Buivenga: http://exljbris.nl */
+@font-face {
+	font-family: "Museo 300";
+	src: url("../fonts/Museo300-Regular.otf");
+}
+
+@font-face {
+	font-family: "Museo Sans";
+	src: url("../fonts/MuseoSans_500.otf");
+}
+
+@font-face {
+	font-family: "Museo Sans Italic";
+	src: url("../fonts/MuseoSans_500_Italic.otf");
+}
+
+/* @end */
+
+body {
+	background: url(../images/body_bg.png) repeat;
+	font-family: "Museo Sans", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin: 0;
+	font-size: 13px;
+	line-height: 20px;
+	color: #3d404a;
+	text-shadow: 0 1px 0 #fff;
+}
+
+h3 {
+	margin: 0 0 15px;
+	font-family: "Museo 300";
+	font-size: 23px;
+	text-transform: capitalize;
+	text-shadow: 0 1px 0 #fff;
+	color: #272930;
+}
+
+em, cite {
+	font-family: "Museo Sans Italic";
+	color: #000;
+}
+
+p {
+	margin: 5px 0 15px;
+}
+
+a:link,
+a:visited {
+	color: #437cd9;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #215ab5;
+}
+
+a:active {
+	color: #0e346e;
+}
+
+#footer {
+	text-align: center;
+	text-shadow: 0 -1px 1px #000;
+	color: #e1ebf2;
+	width: 520px;
+	margin: 0 auto 20px;
+}
+
+#footer a:link,
+#footer a:visited {
+	color: #5893df;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.5);
+}
+
+#footer a:hover {
+	color: #62a7fc;
+}
+
+img {
+	border: none;
+}
+
+.hidden {
+	display: none;
+}
+
+/* @group #header */
+
+#header {
+	text-align: center;
+	margin-bottom: 40px;
+	line-height: 1;
+	background: url(../images/header_logo_bg.png) no-repeat 30px top;
+	height: 280px;
+	width: 715px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 0;
+	text-indent: -999em;
+}
+
+#header h1,
+#header h2 {
+	margin: 0;
+}
+
+/* @end */
+
+/* @group #socialite */
+
+#socialite {
+	width: 520px;
+	margin: -125px auto 0;
+	position: relative;
+	z-index: 1;
+}
+
+.content {
+	background: #eee;
+	padding: 15px;
+	margin-bottom: 20px;
+	height: auto;
+	border-top: 1px solid #fff;
+	position: relative;
+	
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0 1px 2px #000;
+	
+	-moz-border-radius: 3px;
+	-moz-box-shadow: 0 1px 2px #000;
+}
+
+.content p:last-child {
+	margin-bottom: 0;
+}
+
+.two {
+	height: 387px;
+	margin-bottom: 46px;
+	
+	-webkit-box-shadow: 0 0px 1px #000;
+	-moz-box-shadow: 0 0px 1px #000;
+}
+
+.twitter {
+	position: absolute;
+	bottom: -26px;
+	margin: 0 -16px;
+	width: 520px;
+	border: 1px solid rgba(0,0,0,0.4);
+	border-top: none;
+	
+	-webkit-border-bottom-left-radius: 3px;	
+	-webkit-border-bottom-right-radius: 3px;	
+	-moz-border-radius-bottomleft: 3px;
+	-moz-border-radius-bottomright: 3px;
+	
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.07);
+}
+
+.twitter a:link,
+.twitter a:visited {
+	display: block;
+	padding: 8px 0 0;
+	text-align: center;
+	width: 520px;
+	height: 29px;
+	background: url(../images/twitter_bar_bg.png) repeat-x;
+	text-decoration: none;
+	color: #e1ebf2;
+	text-shadow: 0 -1px 1px #000;
+	border: none;
+	
+	-webkit-border-bottom-left-radius: 3px;	
+	-webkit-border-bottom-right-radius: 3px;	
+	-moz-border-radius-bottomleft: 3px;
+	-moz-border-radius-bottomright: 3px;
+}
+
+.twitter a:hover {
+	color: #62a0f2;
+}
+
+.twitter a:active {
+	padding-top: 9px;
+	height: 28px;
+}
+
+/* @group #signup */
+
+#signup {
+	color: #fff;
+	background: url(../images/signup_bg.png) -3px 0;
+	height: 138px;
+	position: relative;
+}
+
+#signup form fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#signup form legend {
+	padding: 15px 20px 0;
+	font-size: 17px;
+	text-shadow: 0 -1px 1px #000;
+}
+
+#signup form p {
+	margin: 0 20px 10px;
+	padding-top: 0px;
+	font-size: ;
+	color: #9a9ca1;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.3);
+}
+
+#signup form div {
+	margin: 0 20px;
+}
+
+#signup form label {
+	display: none;
+}
+
+#signup form input {
+	padding: 4px 5px 0;
+	border: 1px solid #d7d7d7;
+	font-size: 14px;
+	color: #bcbcbc;
+	width: 378px;
+	font-family: "Museo Sans";
+	height: 21px;
+	
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0 -1px 1px #000;
+	-moz-border-radius: 3px;
+	-moz-box-shadow: 0 -1px 1px #000;
+}
+
+#signup form input:focus {
+	outline: none;
+}
+
+#signup form button {
+	width: 90px;
+	height: 30px;
+	position: absolute;
+	right: 5px;
+	bottom: 44px;
+	background-color: transparent;
+	background-image: url(../images/signup_buttons.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border: none;
+	text-indent: -999em;
+}
+
+#signup form button:hover {
+	cursor: pointer;
+	background-position: -90px top;
+}
+
+#signup form button:active {
+	background-position: -180px top;
+}
+/* @end */
+
+/* @group #screenshots */
+
+.screenshots {
+	margin-bottom: 20px;
+	height: 107px;
+	position: relative;
+	z-index: 100;
+}
+
+.screenshots ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.screenshots ul li {
+	position: absolute;
+	top: -5px;
+	left: 176px;
+	height: 107px;
+	width: 159px;
+	padding: 4px;
+	background: none;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid rgba(255,255,255,0);
+}
+
+.screenshots ul li:first-child {
+	left: -5px;
+}
+
+.screenshots ul li:last-child {
+	right: -5px;
+	left: auto;
+}
+
+.screenshots ul li a {
+	position: relative;
+	display: block;
+}
+
+.screenshots ul li img {
+	-webkit-box-shadow: 0 1px 2px #000;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow: 0 1px 2px #000;
+	-moz-border-radius: 3px;
+}
+
+.screenshots ul li:hover{
+	background: rgba(0,0,0,0.2);
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.screenshots ul li:hover img {
+	-webkit-box-shadow: none;
+	-webkit-border-radius: 0px;
+	-moz-box-shadow: none;
+	-moz-border-radius: 0px;
+}
+
+/* @end */
+
+
+/* @end */
+
+

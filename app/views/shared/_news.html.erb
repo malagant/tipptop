@@ -1,0 +1,12 @@
+<ul>
+  <li>
+    <h2><%= link_to "News", news_path %></h2>
+    <% all_news.each do |news_item| %>
+        <p>
+          <small><%= l news_item.created_at %></small>
+          <br/>
+          <strong><%= link_to news_item.headline, news_item_path(news_item) %></strong>
+        <p><%= truncate news_item.text, 30 %></p>
+    <% end %>
+  </li>
+</ul>

@@ -1,0 +1,5 @@
+<h2><%=h @news.headline %></h2>
+<p>
+  <%=h @news.text %>
+</p>
+<% if is_admin? %><%= link_to 'Bearbeiten', edit_news_item_path(@news) %><% end %>

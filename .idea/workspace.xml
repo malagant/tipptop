@@ -1,34 +1,375 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project relativePaths="false" version="4">
-  <component name="BookmarkManager">
-    <editor_bookmark url="file://$PROJECT_DIR$/app/views/games/index.html.erb" line="29" description="&lt;% @rounds.each do |group| %&gt;" />
-  </component>
+<project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="b967e85f-db71-4b7f-a0b5-62a1f1d6b605" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tipptop.iml" afterPath="$PROJECT_DIR$/.idea/tipptop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/team.rb" afterPath="$PROJECT_DIR$/app/models/team.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20090929141340_create_teams.rb" afterPath="$PROJECT_DIR$/db/migrate/20090929141340_create_teams.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derby.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/game.rb" afterPath="$PROJECT_DIR$/app/models/game.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/games/edit.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/gamers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/gamers_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/permissions.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rubyprof_ext.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/integration_test/templates/integration_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/bin/destroy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/functional_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/activerecord_validations_callbacks.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/init.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/mailer/templates/fixture.rhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/databases/mysql.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/tab_red.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/databases/sqlite3.yml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fileColors.xml" afterPath="$PROJECT_DIR$/.idea/fileColors.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/plugin_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/files/stylesheets/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/active_record_basics.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands/performance/benchmarker.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/bin/generate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands/performance/profiler.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/builtin/rails_info/rails/info.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/view_edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/tasks/statistics.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/bin/about" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/nav_arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/controller/templates/functional_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/html/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/view_new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands/console.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/resource/templates/functional_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/6.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/initializers/session_store.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/fresh_rakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/caution.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/belongs_to.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/databases/sqlite2.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/install.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/i18n/demo_untranslated.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/migration/templates/migration.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/active_record_querying.textile" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gamers/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/gamers/edit.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/session_migration/templates/migration.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/accounts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/accounts/index.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/commands.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/helpers/performance_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/view_index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/scripts.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/backtrace_cleaner.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/observer/templates/unit_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/doc/README_FOR_APP" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/caching_with_rails.textile" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb" afterPath="$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/action_mailer_basics.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/polymorphic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/note.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_main_menu.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_main_menu.html.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/teams_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/teams_helper.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/has_one_through.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/initializers/inflections.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/2_2_release_notes.textile" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/index.html.erb" afterPath="$PROJECT_DIR$/app/views/games/index.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/dispatches/config.ru" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/html/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/tasks/databases.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/ruby_version_check.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/dispatcher.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/model/model_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/helper/helper_generator.rb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/de.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/tasks/annotations.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/builtin/rails_info/rails/info_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/testing.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/i18n.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/helpers/test_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/getting_started.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/files/stylesheets/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/html/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/bin/console" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/databases/ibm_db.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/tasks/routes.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/mailer/mailer_generator.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/tipps_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/tipps_helper.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/i18n/demo_translated_en.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/security.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/fcgi_handler.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/resource/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands/about.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/tasks/misc.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/has_many.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/tab_yellow.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/helper/templates/helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/rails_welcome.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/source_annotation_extractor.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands/dbconsole.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/dispatches/gateway.cgi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/tasks/middleware.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/tasks/gems.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/helper/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/validation_error_messages.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/bin/rails" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/tasks/documentation.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/applications/app/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/test_help.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/bin/performance/benchmarker" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/Rakefile" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/projectCodeStyle.xml" afterPath="$PROJECT_DIR$/.idea/projectCodeStyle.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/contribute.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/plugin.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/initializers/new_rails_defaults.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/mailer/templates/view.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/scripts/generate.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/version.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tipps/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/tipps/edit.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/rails_on_rack.textile" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tipptop.iml" afterPath="$PROJECT_DIR$/.idea/tipptop.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/team.rb" afterPath="$PROJECT_DIR$/app/models/team.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands/generate.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/gem_dependency.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/plugin/loader.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/check_bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/habtm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/base.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/helpers/application_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/console_sandbox.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/mailer/templates/unit_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/book_icon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/plugin/locator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/model/templates/migration.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/bin/performance/profiler" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/simple_logger.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/files/stylesheets/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/mailer/templates/view.rhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/mailer/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/resource/templates/controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/observer/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/integration_test/integration_test_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/plugins.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/bin/dbconsole" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/code_statistics.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/environments/production.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands/runner.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/view_show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/secret_key_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/resource/templates/helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/console_app.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/observer/observer_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/i18n/demo_localized_pirate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/files/javascripts/guides.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/session_migration/session_migration_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/tab_info.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/environments/test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/applications/app/app_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/rails_guides.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/layouts_and_rendering.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/controller/templates/controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/seeds.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/helper/templates/helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/routing.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/empty.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/example.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/configuring.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/options.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/environments/boot.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/manifest.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/locales/en.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/performance_test/performance_test_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/html/javascripts/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/metal/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/rack/log_tailer.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/plugin.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/html/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/2_3_release_notes.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/MIT-LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/console_with_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands/server.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/html/javascripts/controls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/initializer.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/tasks/framework.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/tasks/rails.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/user_sessions/new.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/metal/templates/metal.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/mailer/templates/fixture.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generated_attribute.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/form_helpers.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/rails_guides/helpers.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tipps/index.html.erb" afterPath="$PROJECT_DIR$/app/views/tipps/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/games/edit.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/html/images/rails.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/csrf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/dispatches/dispatch.fcgi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/model/templates/unit_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/index.erb.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/tab_note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/databases/postgresql.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/tasks.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/CHANGELOG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/dispatches/dispatch.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/association_basics.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/migrations.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/tasks/testing.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/html/422.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands/plugin.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/environments/development.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/generator.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/content/index.html.erb" afterPath="$PROJECT_DIR$/app/views/content/index.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/applications/app/template_runner.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/integration_test/USAGE" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tipps/_form.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/chapters_icon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/customized_error_messages.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands/ncgi/tracker" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/scripts/destroy.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/model/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/prev.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/files/stylesheets/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/footer_tile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/applications/app/scm/scm.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/rails_logo_remix.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gamers/show.html.erb" afterPath="$PROJECT_DIR$/app/views/gamers/show.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/html/javascripts/dragdrop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/rack/static.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/rails_guides_logo.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gamers/new.html.erb" afterPath="$PROJECT_DIR$/app/views/gamers/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/important.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/contributing_to_rails.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/bin/server" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/resource/templates/helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/credits_pic_blank.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_twitter.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/controller/controller_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/model/templates/fixtures.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands/destroy.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/controller/templates/helper_test.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_login_info.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_login_info.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/warning.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/spellchecker.xml" afterPath="$PROJECT_DIR$/.idea/spellchecker.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/header_tile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/builtin/rails_info/rails_info_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/test_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/i18n/demo_translation_missing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/tasks/tmp.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/mailer/templates/mailer.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/fxn.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/gamers/_form.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/command_line.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/performance_test/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/has_many_through.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/error_messages.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands/ncgi/listener" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/scripts/update.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/performance_test_help.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/metal/metal_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/controller/templates/helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/lookup.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/routes.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/layout.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/builtin/rails_info/rails/info_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/helper.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/helpers/application_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/MIT-LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/session_migration/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/grey_bullet.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/railties_path.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/tab_grey.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/model/templates/model.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/rails_guides/textile_extensions.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/migration/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/html/javascripts/prototype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/uninstall.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/tip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/databases/oracle.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/files/stylesheets/syntax.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/layout.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/html/javascripts/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/performance_testing.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/controller/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/initializers/mime_types.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/applications/app/scm/git.rb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teams/edit.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/files/javascripts/code_highlighter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/has_one.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/gem_builder.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/rails_guides/indexer.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/observer/templates/observer.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/spec.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tipps/new.html.erb" afterPath="$PROJECT_DIR$/app/views/tipps/new.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/controller/templates/view.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/rack/debugger.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/nested_model_forms.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/callouts/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/tasks/log.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/environments/environment.rb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_news.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/groups/index.html.erb" afterPath="$PROJECT_DIR$/app/views/groups/index.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/performance_test/templates/performance_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/files/javascripts/highlighters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/credits.erb.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/header_backdrop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/scaffold_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/rack/metal.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/action_controller_overview.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/posts_index.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/vendor_gem_source_index.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/accounts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/accounts/show.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/bin/runner" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/i18n/demo_translated_pirate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/unit_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/resource/resource_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/rack.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/tab_yellow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/source/debugging_rails_applications.textile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/commands/update.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/databases/frontbase.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/components/migration/migration_generator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/bin/plugin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/configs/initializers/backtrace_silencers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/feature_tile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/icons/up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/webrick_server.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails_generator/generators/applications/app/scm/svn.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/images/session_fixation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/railties/guides/rails_guides/generator.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/teams_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/teams_controller.rb" />
     </list>
-    <ignored path="tipptop.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="tipptop.iws" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +387,79 @@
   <component name="DisabledGemRequirementsHolder">
     <module name="tipptop">
       <requirement>
+        <dependency name="treetop" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="ramaze" version="2009.07" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="sinatra" version="0.9.4" bound="EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="rack" version="1.0.0" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="builder" version="2.1.2" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="text-format" version="0.6.3" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="addressable" version="2.0" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="genki-ruby-terminfo" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="mocha" version="0.9.7" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="webrat" version="0.5.3" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="rack-test" version="0.5.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="hoe" version="2.0.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="activerecord-jdbcmysql-adapter" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="webrat" version="0.5.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="faker" version="0.3.1" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="memcache-client" version="1.7.4" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="term-ansicolor" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="builder" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="RedCloth" version="4.1.1" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
         <dependency name="test-unit" version="1.2.3" bound="EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="rbench" version="0.2.3" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="tzinfo" version="0.3.12" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="spork" version="0.5.9" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="aslakhellesoy-ansicolor" version="1.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="win32console" version="1.2.0" bound="GREATER_OR_EQUAL" />
       </requirement>
     </module>
   </component>
@@ -56,46 +469,10 @@
   <component name="FileColors" enabled="false" enabledForTabs="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="games_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="18" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/games/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/content_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gamers_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/gamers_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="84" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/game.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="92" selection-start="174" selection-end="174" vertical-scroll-proportion="-0.5277778">
+            <state line="23" column="10" selection-start="765" selection-end="765" vertical-scroll-proportion="0.67962676">
               <folding />
             </state>
           </provider>
@@ -111,22 +488,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20091007092146_add_points_to_gamers.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/config/environment.rb" />
-        <option value="$PROJECT_DIR$/app/models/permissions.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20091007132901_add_role_name_to_users.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/gamers_controller.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/teams_helper.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20090929141340_create_teams.rb" />
+        <option value="$PROJECT_DIR$/vendor/rails/activerecord/lib/active_record/base.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/teams_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/team.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/games_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/games/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/game.rb" />
+        <option value="$PROJECT_DIR$/app/views/teams/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/games/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/news/new.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/news_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/news/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_news.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/news/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/news_controller.rb" />
+        <option value="$PROJECT_DIR$/public/stylesheets/styles.css" />
+        <option value="$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb" />
       </list>
     </option>
   </component>
@@ -162,9 +539,11 @@
       <sortByType ProjectPane="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="RailsProjectView">
         <subPane />
       </pane>
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,7 +572,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -207,11 +586,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
+              <option name="myItemId" value="gems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,8 +657,26 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user_sessions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,26 +697,8 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipps" />
+              <option name="myItemId" value="teams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,6 +721,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,28 +830,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gamers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="accounts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -479,20 +890,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Debugger" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
-  <component name="RunManager" selected="Rake.gems:unpack">
+  <component name="RunManager" selected="Rails.Development: tipptop">
     <configuration default="false" name="db:setup" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="tipptop" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
@@ -772,12 +1181,12 @@
       <item index="0" class="java.lang.String" itemvalue="Rake.db:setup" />
       <item index="1" class="java.lang.String" itemvalue="Rake.routes" />
       <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate:redo" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Production: tipptop" />
-      <item index="4" class="java.lang.String" itemvalue="Rails.Development: tipptop" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.rails:freeze:gems" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.gems:unpack" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.rails:freeze:gems" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.gems:unpack" />
+      <item index="5" class="java.lang.String" itemvalue="Rails.Production: tipptop" />
+      <item index="6" class="java.lang.String" itemvalue="Rails.Development: tipptop" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.spec" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -799,15 +1208,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="832" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.40650406" order="1" side_tool="true" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23997134" sideWeight="0.67132866" order="0" side_tool="false" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23925501" sideWeight="0.5907859" order="0" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972898" sideWeight="0.5" order="3" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3211382" sideWeight="0.5" order="2" side_tool="false" x="38" y="113" width="1537" height="932" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.56639564" sideWeight="0.5" order="2" side_tool="false" x="38" y="113" width="1537" height="932" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
@@ -856,64 +1265,114 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/groups_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/accounts/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/accounts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/news/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="1" column="17" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.3653846">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/user_sessions_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/news_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="2" column="12" selection-start="45" selection-end="45" vertical-scroll-proportion="-1.4615384">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/news/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="12" selection-start="619" selection-end="642" vertical-scroll-proportion="0.0" />
+        <state line="8" column="47" selection-start="192" selection-end="192" vertical-scroll-proportion="0.23100305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_news.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="74" selection-start="254" selection-end="254" vertical-scroll-proportion="0.20212767">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/news/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="41" selection-start="103" selection-end="103" vertical-scroll-proportion="0.11550152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_sessions/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="66" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/teams_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/team.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/games/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/content_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="35" column="51" selection-start="984" selection-end="984" vertical-scroll-proportion="-10.230769">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/gamers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="84" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/game.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/content_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="92" selection-start="174" selection-end="174" vertical-scroll-proportion="-0.5277778">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/accounts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="2" selection-start="48" selection-end="120" vertical-scroll-proportion="-1.4615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="368" column="7" selection-start="5277" selection-end="5277" vertical-scroll-proportion="0.5638298">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/news_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="54" selection-start="1486" selection-end="1486" vertical-scroll-proportion="-5.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="10" selection-start="765" selection-end="765" vertical-scroll-proportion="0.67962676">
           <folding />
         </state>
       </provider>

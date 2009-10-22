@@ -1,0 +1,269 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><!--
+	Hello, thanks for taking a look at our source code. Feel free to look and learn, but please respect that everything here is copyright (c) 2009 Realmac Software.
+-->
+
+
+	
+		<meta name="author" content="Realmac Software">
+		<meta name="copyright" content="Realmac Software">
+		<meta name="company" content="Realmac Software">
+		<meta name="rating" content="general">
+		<meta name="distribution" content="global">
+		<meta name="viewport" content="width=550">
+		<meta name="description" content="Socialite, previously know as EventBox, is a Mac application designed to keep your Twitter, Flickr, RSS and other social accounts in one place.">
+		<title>Socialite - Previously known as EventBox</title>
+		<!-- Styles -->
+		<link rel="stylesheet" type="text/css" media="screen" href="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/styles.css">
+		<link rel="stylesheet" type="text/css" media="print" href="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/print.css">
+		<script type="text/javascript" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/FancyZoom.js"></script>
+		<script type="text/javascript" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/FancyZoomHTML.js"></script>
+		<script type="text/javascript" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/socialite.js"></script>
+	<style type="text/css" charset="utf-8">/* See license.txt for terms of usage */
+
+#firebugBody {
+    position: fixed;
+    top:0;
+    left:0;
+    margin:0;
+    padding:0;
+    width:1px;
+    height:1px;
+    overflow:visible;
+}
+
+.firebugCanvas {
+    position:fixed;
+    top: 0;
+    left: 0;
+    display:none;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.firebugHighlight {
+    z-index: 2147483647;
+    position: absolute;
+    background-color: #3875d7;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0 none;
+}
+
+.firebugLayoutBoxParent {
+    z-index: 2147483647;
+    position: absolute;
+    background-color: transparent;
+    border-top: 0 none;
+    border-right: 1px dashed #BBBBBB;
+    border-bottom: 1px dashed #BBBBBB;
+    border-left: 0 none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.firebugRuler {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0 none;
+}
+
+.firebugRulerH {
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 14px;
+    background: url(chrome://firebug/skin/rulerH.png) repeat-x;
+    border-top: 1px solid #BBBBBB;
+    border-right: 1px dashed #BBBBBB;
+    border-bottom: 1px solid #000000;
+}
+
+.firebugRulerV {
+    top: 0;
+    left: -15px;
+    width: 14px;
+    height: 100%;
+    background: url(chrome://firebug/skin/rulerV.png) repeat-y;
+    border-left: 1px solid #BBBBBB;
+    border-right: 1px solid #000000;
+    border-bottom: 1px dashed #BBBBBB;
+}
+
+.overflowRulerX > .firebugRulerV {
+    left: 0;
+}
+
+.overflowRulerY > .firebugRulerH {
+    top: 0;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.firebugLayoutBox {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.firebugLayoutBoxOffset {
+    z-index: 2147483647;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.firebugLayoutBoxMargin {
+    background-color: #EDFF64;
+}
+
+.firebugLayoutBoxBorder {
+    background-color: #666666;
+}
+
+.firebugLayoutBoxPadding {
+    background-color: SlateBlue;
+}
+
+.firebugLayoutBoxContent {
+    background-color: SkyBlue;
+}
+
+/*.firebugHighlightGroup .firebugLayoutBox {
+    background-color: transparent;
+}
+
+.firebugHighlightBox {
+    background-color: Blue !important;
+}*/
+
+.firebugLayoutLine {
+    z-index: 2147483647;
+    background-color: #000000;
+    opacity: 0.4;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0 none;
+}
+
+.firebugLayoutLineLeft,
+.firebugLayoutLineRight {
+    position: fixed;
+    width: 1px;
+    height: 100%;
+}
+
+.firebugLayoutLineTop,
+.firebugLayoutLineBottom {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+}
+
+.firebugLayoutLineTop {
+    margin-top: -1px;
+    border-top: 1px solid #999999;
+}
+
+.firebugLayoutLineRight {
+    border-right: 1px solid #999999;
+}
+
+.firebugLayoutLineBottom {
+    border-bottom: 1px solid #999999;
+}
+
+.firebugLayoutLineLeft {
+    margin-left: -1px;
+    border-left: 1px solid #999999;
+}
+</style></head><body><div style="position: absolute; left: 10px; top: 10px; visibility: hidden; z-index: 525;" id="ZoomSpin"><img src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/zoom-spin-1.png" id="SpinImage"></div><div style="position: absolute; left: 10px; top: 10px; visibility: hidden; z-index: 499;" id="ZoomBox"><img style="display: block; width: 10px; height: 10px; cursor: pointer;" id="ZoomImage" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/spacer.gif" border="0"><div style="position: absolute; left: -15px; top: -15px; visibility: hidden;" id="ZoomClose"><img style="cursor: pointer;" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/closebox.png" border="0" height="34" width="34"></div></div><div style="position: absolute; visibility: hidden; margin-left: auto; margin-right: auto; z-index: 501;" id="ZoomCapDiv"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="right"><img style="display: block;" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/zoom-caption-l.png" height="26" width="13"></td><td style="font-size: 14px; font-family: Helvetica; font-weight: bold; color: rgb(255, 255, 255); text-shadow: 0px 2px 4px rgb(0, 0, 0); white-space: nowrap;" id="ZoomCaption" background="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/zoom-caption-fill.png" valign="middle"></td><td><img style="display: block;" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/zoom-caption-r.png" height="26" width="13"></td></tr></tbody></table></div><div style="position: absolute; left: 50px; top: 50px; width: 100px; height: 100px; visibility: hidden; z-index: 498;" id="ShadowBox"><table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%"><tbody><tr style="height: 25px;"><td style="width: 27px;"><img style="display: block;" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/zoom-shadow1.png" height="25" width="27"></td><td background="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/zoom-shadow2.png"><img style="display: block;" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/spacer.gif" height="1" width="1"></td><td style="width: 27px;"><img style="display: block;" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/zoom-shadow3.png" height="25" width="27"></td></tr><tr><td background="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/zoom-shadow4.png"><img style="display: block;" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/spacer.gif" height="1" width="1"></td><td bgcolor="#ffffff"><img style="display: block;" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/spacer.gif" height="1" width="1"></td><td background="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/zoom-shadow5.png"><img style="display: block;" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/spacer.gif" height="1" width="1"></td></tr><tr style="height: 26px;"><td style="width: 27px;"><img style="display: block;" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/zoom-shadow6.png" height="26" width="27"></td><td background="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/zoom-shadow7.png"><img style="display: block;" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/spacer.gif" height="1" width="1"></td><td style="width: 27px;"><img style="display: block;" src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/zoom-shadow8.png" height="26" width="27"></td></tr></tbody></table></div>
+	<div id="header">
+		<h1>Socialite</h1>
+		<h2>Previously known as EventBox</h2>
+	</div>
+	
+	<div id="socialite">
+		<div class="content one">
+			<h3>The Story So Far</h3>
+
+<p>Ever since we found out about EventBox in late 2008, all of us at
+Realmac Software have been keeping a keen eye on its development. We've
+often toyed with the idea of making an application similar to EventBox
+to keep our Twitter, Flickr, RSS and other accounts in one place.</p>
+
+<p>We're thrilled to announce today that Realmac Software has acquired
+EventBox from The Cosmic Machine. We love their vision for the
+application, and want to build on EventBox's great start to make it
+rock even more.</p>
+
+		</div>
+		
+		<div class="screenshots">
+			<ul>
+				<li><a href="http://www.realmacsoftware.com/socialite/rw_common/themes/socialte/images/main_window_hud_small.jpg"><img src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/main_window_hud_thumb.png"></a></li>
+				<li><a href="http://www.realmacsoftware.com/socialite/rw_common/themes/socialte/images/flickr_small.jpg"><img src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/flickr_thumb.png"></a></li>
+				<li><a href="http://www.realmacsoftware.com/socialite/rw_common/themes/socialte/images/google_reader_small.jpg"><img src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/google_reader_thumb.png"></a></li>
+			</ul>
+		</div>
+		
+		<div class="content two">
+			<h3>Our Plans</h3>
+
+<p>In November, we're going to be launching EventBox 1.0 under a new
+name: Socialite! If you're wondering why we're changing the name, the
+Mac's built-in dictionary describes a socialite as <cite>'[someone] who is well known in fashionable society and is fond of social activities and entertainment'</cite> - and we think it's a pretty-darn-good match for a stylish Mac OS X social networking application! </p>
+
+<p>We know that some folks have already bought a copy of EventBox from
+The Cosmic Machine, however you don't need to worry! When Socialite
+launches we'll be emailing you a shiny new serial number to use with
+Socialite so that you can keep tweeting, Digging and reading your feeds!</p>
+
+<p>As this is just the beginning for Socialite, we really want to hear
+your feedback on how we can make the application even better - feel
+free to drop by <a href="http://www.realmacsoftware.com/forums/index.php/forums/viewforum/59/">the Realmac Software forums</a>
+and let us know what you think. In the meantime we're hard at work to
+make sure that, come November, Socialite is the best social networking
+application on your Mac.</p>
+
+<p><em>Team Realmac</em></p>
+
+<p class="twitter"><a href="http://twitter.com/socialiteapp" rel="self">Follow @Socialiteapp on Twitter for news and early access to beta versions.</a></p>
+		</div>
+		
+		<div id="signup">
+			<form action="http://madmimi.com/signups/subscribe/161" method="post" id="newsletter">
+				<fieldset>
+					<legend>Want to get Social this November?</legend>
+					<p>Sign up below and we&#8217;ll email you the second Socialite is available. </p>
+							
+					<div><label for="signup[email]" class="title">Email:</label>
+					<input name="signup[email]" id="signup_email" value="Email Address" type="text"></div>
+					
+					<div class="hidden"><input name="lists[]" value="31593" checked="checked" type="checkbox"></div>
+					<button type="submit">Sing-up</button>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<p id="footer">If
+you're a member of the press, there's an official press release about
+EventBox joining the Realmac Software family available in the <a href="http://www.realmacsoftware.com/pressroom">Realmac Software Pressroom</a>.</p>
+<!-- Start Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="Socialite%20-%20Previously%20known%20as%20EventBox-Dateien/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-241775-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script><!-- End Google Analytics -->
+</body></html>

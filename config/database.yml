@@ -1,12 +1,12 @@
-development:
-  encoding: utf8
-  adapter: jdbcmysql
-  database: tipptop_development
-  pool: 5
-  username: root
-  password:
-  host: localhost
-
+#development:
+#  encoding: utf8
+#  adapter: jdbcmysql
+#  database: tipptop_development
+#  pool: 5
+#  username: root
+#  password:
+#  host: localhost
+#
 
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -45,13 +45,13 @@ production:
   password:
 
 
-#development:
-#  adapter: jdbc
-#  driver: org.apache.derby.jdbc.ClientDriver
-#  url: jdbc:derby:tipptop_development;create=true
-#  username: app
-#  password: app
-#
+development:
+  adapter: jdbc
+  driver: org.apache.derby.jdbc.ClientDriver
+  url: jdbc:derby:tipptop_development;create=true
+  username: app
+  password: app
+
 #test:
 #  adapter: jdbc
 #  driver: org.apache.derby.jdbc.ClientDriver

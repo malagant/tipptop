@@ -22,4 +22,12 @@ class Team < ActiveRecord::Base
   def flag_uri
     COUNTRY_IMAGES + read_attribute(:flag_uri) + ".gif"
   end
+
+  def flag_uri=(uri)
+    write_attribute(:flag_uri, uri.split(/.gif|.jpg|.png/).first)
+  end
+
+  def self.countries
+    %w(SŸd\ Afrika Deutschland Holland England)
+  end
 end

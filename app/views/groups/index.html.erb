@@ -1,4 +1,4 @@
-<h1>Gruppen&uuml;bersicht</h1>
+<h2>Gruppen&uuml;bersicht</h2>
 <% @groups.each do |group|
     count = 0
 %>
@@ -26,6 +26,9 @@
             <td><%= h team.goals_won %></td>
             <td><%= h team.goals_lost %></td>
             <td><%= h team.points %></td>
+            <% if is_admin? %>
+            <td><%= link_to image_tag("/images/edit.jpg", :title => "Bearbeiten"), edit_team_url(team) %></td>
+            <% end %>
           </tr>
       <% end %>
       </tbody>

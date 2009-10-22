@@ -1,6 +1,9 @@
 <%= error_messages_for(:tipp) %>
-<h1>Tipp f&uuml;r das Spiel <%= team_helper(@tipp.game.team_one) %> gegen <%= team_helper(@tipp.game.team_two) %></h1>
+<h2>Tipp f&uuml;r das Spiel</h2>
+<h3><%= team_helper(@tipp.game.team_one) %> gegen <%= team_helper(@tipp.game.team_two) %></h3>
+<p>
 <% form_for(@tipp, :url => game_tipps_path(@tipp.game)) do |f| %>
-    <%= team_helper(@tipp.game.team_one) %><%= f.text_field :goals_one %> : <%= f.text_field :goals_two %><%= team_helper(@tipp.game.team_two) %><br/>
+    <%= team_helper(@tipp.game.team_one) %><br><%= f.text_field :goals_one %><br/><%= team_helper(@tipp.game.team_two) %><br/> <%= f.text_field :goals_two %><br/><br/>
     <%= f.submit "Tippen" %>
 <% end %>
+</p>

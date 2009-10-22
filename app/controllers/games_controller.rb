@@ -1,5 +1,5 @@
 class GamesController < ApplicationController
-  before_filter :require_admin
+  before_filter :require_admin, :only => [:edit, :new, :update, :destroy]
 
   def index
     @groups = Group.find(:all, :include => [:games, :teams])
@@ -13,10 +13,16 @@ class GamesController < ApplicationController
   def update
     @game = Game.find(params[:id])
 
-    if @game.update_attributes(params[:game])
+    @game.gametime = params[:game][:gametime] if params[:game][:gametime] 
+    @game.team_one.id = params[:game][:team_one] if params[:game][:team_one]
+    @game.team_two.id = params[:game][:team_two] if params[:game][:team_two]
+
+    if @game.save
       flash[:notice] = "Spieldaten wurden erfolgreich aktualisiert"
+      redirect_to games_url
     else
       flash[:notice] = "Spieldaten konnten nicht aktualisiert werden"
+      redirect_to edit_game_url(@game)
     end
   end
 

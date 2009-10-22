@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :news, :singular => 'news_item'
+
   map.resources :user_sessions
   map.resource :account, :only => :show
   map.resources :users, :has_one => :gamer

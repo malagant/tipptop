@@ -1,0 +1,9 @@
+<%= error_messages_for :team %>
+<h2>Mannschaft <%= @team.position %> f&uuml;r Gruppe <%= @team.group.name %></h2>
+<% form_for(@team) do |f| %>
+    <%= f.label :country, "Name" %><br/>
+    <%= f.select :country, Team.countries %>
+    <%= f.label :flag_uri, "Flagge" %><br/>
+    <%= f.file_field :flag_uri %> <br/>
+    <%= f.submit "Speichern" %>
+<% end %>

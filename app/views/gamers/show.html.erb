@@ -1,9 +1,10 @@
-<h1>Spielerdetails</h1>
+<h2>Spielerdetails</h2>
 <p>
    <%=h @gamer.firstname %> <%=h @gamer.lastname %><br/>
    <%=h @gamer.street1 %><br/>
    <%=h @gamer.street2 %><% unless @gamer.street2.blank? %><br/><% end %>
    <%=h @gamer.zipcode %> <%=h @gamer.city %><br/>
    <%=h @gamer.country %><br/>
+   Email: <%= mail_to current_user.email %><br/>
 </p>
 <%= link_to "Bearbeiten", edit_user_gamer_url(@gamer.user) %>
