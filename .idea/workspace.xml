@@ -2,62 +2,8 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="b967e85f-db71-4b7f-a0b5-62a1f1d6b605" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/activerecord-jdbcderby-adapter-0.9.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/activerecord-jdbcderby-adapter-0.9.2/.specification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/makandra-aegis-1.1.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/makandra-aegis-1.1.2/.specification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/cucumber-0.3.104/.specification" afterPath="$PROJECT_DIR$/vendor/gems/cucumber-0.3.104/.specification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/builder-2.1.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/builder-2.1.2/.specification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tipps_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tipps_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tipps/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/tipps/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/term-ansicolor-1.0.4/.specification" afterPath="$PROJECT_DIR$/vendor/gems/term-ansicolor-1.0.4/.specification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/content_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/content_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tipps/index.html.erb" afterPath="$PROJECT_DIR$/app/views/tipps/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/games/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/de.yml" afterPath="$PROJECT_DIR$/config/locales/de.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/polyglot-0.2.9/.specification" afterPath="$PROJECT_DIR$/vendor/gems/polyglot-0.2.9/.specification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/content/terms_and_rules.html.erb" afterPath="$PROJECT_DIR$/app/views/content/terms_and_rules.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/rack-1.0.0/.specification" afterPath="$PROJECT_DIR$/vendor/gems/rack-1.0.0/.specification" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/rubyist-aasm-2.1.1/.specification" afterPath="$PROJECT_DIR$/vendor/gems/rubyist-aasm-2.1.1/.specification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/activerecord-jdbc-adapter-0.9.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/activerecord-jdbc-adapter-0.9.2/.specification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/team.rb" afterPath="$PROJECT_DIR$/app/models/team.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tipptop.iml" afterPath="$PROJECT_DIR$/.idea/tipptop.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/content/imprint.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/hall_of_fame_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/hall_of_fame_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/game.rb" afterPath="$PROJECT_DIR$/app/models/game.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/groups/index.html.erb" afterPath="$PROJECT_DIR$/app/views/groups/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/treetop-1.4.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/treetop-1.4.2/.specification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb" afterPath="$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/accounts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/accounts/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_main_menu.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_main_menu.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/index.html.erb" afterPath="$PROJECT_DIR$/app/views/games/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/vendor_gem_source_index.rb" afterPath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/vendor_gem_source_index.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/gem_dependency.rb" afterPath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/gem_dependency.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tipps/show.html.erb" afterPath="$PROJECT_DIR$/app/views/tipps/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/diff-lcs-1.1.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/diff-lcs-1.1.2/.specification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/rspec-rails-1.2.7.1/.specification" afterPath="$PROJECT_DIR$/vendor/gems/rspec-rails-1.2.7.1/.specification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_login_info.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_login_info.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/rspec-1.2.8/.specification" afterPath="$PROJECT_DIR$/vendor/gems/rspec-1.2.8/.specification" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/activerecord/test/cases/fixtures_test.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/authlogic-2.1.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/authlogic-2.1.2/.specification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/groups_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/groups_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/jdbc-derby-10.5.3.0/.specification" afterPath="$PROJECT_DIR$/vendor/gems/jdbc-derby-10.5.3.0/.specification" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/tipps_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/tipps_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/teams_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/teams_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="tipptop_development/" />
@@ -163,19 +109,10 @@
   <component name="FileColors" enabled="false" enabledForTabs="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.4615384">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="44" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.50791365">
+            <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.055555556">
               <folding />
             </state>
           </provider>
@@ -208,7 +145,6 @@
         <option value="$PROJECT_DIR$/app/views/content/imprint.html.erb" />
         <option value="$PROJECT_DIR$/app/views/content/terms_and_rules.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/hall_of_fame_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/tipps_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/tipps_helper.rb" />
@@ -216,6 +152,7 @@
         <option value="$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -266,6 +203,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aaronchi-jrails-0.5.1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -555,25 +546,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
-  <component name="RunManager" selected="Rails.Development: tipptop">
-    <configuration default="false" name="db:setup" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="tipptop" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:setup" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.install">
     <configuration default="false" name="routes" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="tipptop" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
@@ -645,6 +618,20 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="install" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="tipptop" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/vendor/gems/aaronchi-jrails-0.5.1" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/vendor/gems/aaronchi-jrails-0.5.1/install.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -832,15 +819,15 @@
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Rake.db:setup" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.routes" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate:redo" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.rails:freeze:gems" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.gems:unpack" />
-      <item index="5" class="java.lang.String" itemvalue="Rails.Production: tipptop" />
-      <item index="6" class="java.lang.String" itemvalue="Rails.Development: tipptop" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.routes" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate:redo" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.rails:freeze:gems" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.gems:unpack" />
+      <item index="4" class="java.lang.String" itemvalue="Rails.Production: tipptop" />
+      <item index="5" class="java.lang.String" itemvalue="Rails.Development: tipptop" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="8" class="java.lang.String" itemvalue="Ruby.install" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -919,11 +906,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="63" selection-start="334" selection-end="334" vertical-scroll-proportion="-11.692307" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/content_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="4" selection-start="150" selection-end="150" vertical-scroll-proportion="0.2777778" />
@@ -937,11 +919,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/content/terms_and_rules.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.76681614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="2217" selection-end="2217" vertical-scroll-proportion="0.9431988" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
@@ -1003,16 +980,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/vendor/gems/aaronchi-jrails-0.5.1/install.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.4615384">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="38" selection-start="681" selection-end="681" vertical-scroll-proportion="-12.423077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="44" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.50791365">
+        <state line="28" column="44" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.055555556">
           <folding />
         </state>
       </provider>
