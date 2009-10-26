@@ -5,7 +5,7 @@ module ApplicationHelper
   end
 
   def current_page_item(page_name)
-    puts "+++ " + page_name
-    root_url == page_name
+    puts "+++ " + page_name + " current_menu_item = #{controller.current_menu_item}"
+    controller.current_menu_item == page_name ? "current_page_item" : ""
   end
 end

@@ -1,9 +1,14 @@
 class ContentController < ApplicationController
   def index
+    current_menu_item = "home"
   end
 
   def terms_and_rules
     
-  end  
+  end
+
+  def imprint
+    
+  end
 
 end

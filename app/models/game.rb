@@ -1,10 +1,11 @@
 class Game < ActiveRecord::Base
   validates_presence_of :gametime
-  
+
   include AASM
   belongs_to :stadium
   belongs_to :group
   belongs_to :round
+  has_many :tipps
 
   belongs_to :team_one, :class_name => "Team", :foreign_key => "team_one"
   belongs_to :team_two, :class_name => "Team", :foreign_key => "team_two"
@@ -45,5 +46,25 @@ class Game < ActiveRecord::Base
 
   def remove_goal_for_team_two
     self.goals_team_one -= 1
+  end
+
+  def is_draw?
+    self.finished? and (self.goals_team_one == self.goals_team_two)
+  end
+
+  def winner
+    if self.finished?
+      self.goals_team_one > self.goals_team_two ? self.goals_team_one : self.goals_team_two
+    else
+      nil
+    end
+  end
+
+  def loser
+    if self.finished?
+      self.goals_team_one < self.goals_team_two ? self.goals_team_one : self.goals_team_two
+    else
+      nil
+    end
   end
 end

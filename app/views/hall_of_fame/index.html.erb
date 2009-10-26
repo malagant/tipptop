@@ -1,9 +1,17 @@
 <h2>Hall of Fame</h2>
-<% @gamers.each do |gamer| %>
-    <%= h gamer.firstname + " " + gamer.lastname %>
-    <% gamer.tipps.each do |tipp| %>
-        <%=h tipp.goals_one %> : 
-        <%=h tipp.goals_two %>
-    <% end %>
-    <%=h gamer.points %>
-<% end %>
+<h3 style="padding-bottom: 20px;">Die Top 10</h3>
+<table>
+  <thead>
+   <th>Platz</th>
+   <th>Nickname</th>
+   <th>Punktzahl</th>
+  </thead>
+  <% count = 1
+     @gamers.each do |gamer| %>
+      <tr>
+        <td align="right"><%= count %>.</td>
+        <td><%= link_to gamer.firstname + " " + gamer.lastname, gamer_tipps_url(gamer) %></td>
+        <td align="right"><%= h gamer.points %></td>
+      </tr>
+  <% end %>
+</table>

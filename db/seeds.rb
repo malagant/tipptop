@@ -11,6 +11,7 @@ guest.reset_perishable_token!
 
 # Einen gamer anlegen
 mjohann = User.create(:email => "mjohann@rails-experts.com", :password => "topsecret", :password_confirmation => "topsecret")
+mjohann.confirm!
 gamer = mjohann.build_gamer(:firstname => "Michael", :lastname => "Johann", :street1 => "Papeneschstr. 27a", :zipcode => "48565", :city => "Steinfurt", :country => "Deutschland")
 mjohann.role_name = 'gamer'
 gamer.save!
@@ -18,7 +19,7 @@ gamer.save!
 #Gruppen erstellen
 gruppe_a = Group.create!(:name => 'A')
 
-gruppe_a.teams << A1 = Team.create!( :position => 'A1', :country => 'SŸd Afrika', :flag_uri => 'south_africa')
+gruppe_a.teams << A1 = Team.create!( :position => 'A1', :country => 'SÃ¼d Afrika', :flag_uri => 'south_africa')
 gruppe_a.teams << A2 = Team.create!( :position => 'A2')
 gruppe_a.teams << A3 = Team.create!( :position => 'A3')
 gruppe_a.teams << A4 = Team.create!( :position => 'A4')

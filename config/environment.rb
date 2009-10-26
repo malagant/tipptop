@@ -16,11 +16,13 @@ Rails::Initializer.run do |config|
   #config.gem 'activerecord-jdbcmysql-adapter'
   config.gem "activerecord-jdbcderby-adapter", :version => '0.9.2', :lib => 'active_record/connection_adapters/jdbcderby_adapter'
   config.gem 'authlogic'
-  config.gem 'makandra-aegis', :lib => 'aegis'
+  config.gem 'mongrel', :version => '1.1.5'
+  config.gem 'makandra-aegis', :lib => 'aegis', :version => '1.1.2'
   config.gem 'rubyist-aasm', :lib => 'aasm'
   config.gem 'rspec', :lib => 'spec'
   config.gem 'rspec-rails', :lib => 'spec'
   config.gem 'cucumber'
+  config.gem "aaronchi-jrails", :lib => "jrails"
   # Specify gems that this application depends on and have them installed with rake gems:install
   # config.gem "bj"
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
@@ -45,8 +47,11 @@ Rails::Initializer.run do |config|
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   config.i18n.default_locale = :de
-  config.active_record.observers = :user_observer
+  config.active_record.observers = [:user_observer, :game_observer]
 end
+
+ENV['LANG'] = "de_DE.UTF-8"
+$TIPP_STOP = 30
 
 class ActionMailer::Base
   default_url_options[:host] = 'tipptop.net'

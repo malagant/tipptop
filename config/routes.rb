@@ -10,9 +10,13 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :teams
   map.resources :hall_of_fame, :only => :index
 
+  map.retire 'users/:id/retire', :controller => 'users',
+                 :action => 'retire',
+                 :conditions => { :method => :put} 
+
   map.game_start 'games/:id/start', :controller => 'games',
                  :action => 'start',
-                 :conditions => { :method => :put} 
+                 :conditions => { :method => :put}
 
   map.game_finish 'games/:id/finish', :controller => 'games',
                  :action => 'finish',

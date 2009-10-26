@@ -1,0 +1,72 @@
+--- !ruby/object:Gem::Specification 
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - '>='
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+email: aaronchi@gmail.com
+cert_chain: []
+
+summary: jRails is a drop-in jQuery replacement for the Rails Prototype/script.aculo.us
+  helpers.
+post_install_message: 
+extra_rdoc_files: 
+- CHANGELOG
+- LICENSE
+- README.rdoc
+homepage: http://ennerchi.com/projects/jrails
+signing_key: 
+name: aaronchi-jrails
+rdoc_options: 
+- --charset=UTF-8
+rubyforge_project: jrails
+autorequire: 
+licenses: []
+
+executables: 
+- jrails
+description: Using jRails, you can get all of the same default Rails helpers for javascript
+  functionality using the lighter jQuery library.
+specification_version: 3
+default_executable: jrails
+files: 
+- bin/jrails
+- init.rb
+- install.rb
+- javascripts/jquery-ui.js
+- javascripts/jquery.js
+- javascripts/jrails.js
+- javascripts/sources/jrails.js
+- lib/jrails.rb
+- rails/init.rb
+- tasks/jrails.rake
+- CHANGELOG
+- LICENSE
+- README.rdoc
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - '>='
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+extensions: []
+
+rubygems_version: 1.3.5
+requirements: []
+
+authors: 
+- Aaron Eisenberger
+- Patrick Hurley
+date: 2009-08-06 22:00:00 +00:00
+platform: ruby
+test_files: []
+
+version: !ruby/object:Gem::Version 
+  version: 0.5.1
+require_paths: 
+- lib
+dependencies: []
+
+bindir: bin
+has_rdoc: true

@@ -7,7 +7,7 @@ class TeamsController < ApplicationController
     @team = Team.find(params[:id])
 
     if @team.update_attributes(params[:team])
-      flash[:notice] = "€nderungen gespeichert"
+      flash[:notice] = "Ã„nderungen gespeichert"
       redirect_to groups_url
     else
       flash[:notice] = "Fehler beim Speichern"

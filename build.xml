@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="run" name="tipptop">
+	<property name="jruby.home" location="${basedir}/jruby-1.4.0RC2"/>
+	<property name="rails.env" value="development"/>
+	<path id="jruby.classpath">
+		<fileset dir="${jruby.home}/lib" includes="*.jar"/>
+    </path>
+	<target name="run">
+      <java fork="true" classname="org.jruby.Main">
+        <classpath refid="jruby.classpath"/>
+        <sysproperty key="jruby.home" value="${jruby.home}"/>
+		<arg value="script/server"/>
+		<arg value="-e${rails.env}"/>
+      </java>
+  </target>
+
+	<target name="migrate">
+      <delete file="${basedir}/db/schema.rb"/>
+      <java fork="true" classname="org.jruby.Main">
+        <classpath refid="jruby.classpath"/>
+        <sysproperty key="jruby.home" value="${jruby.home}"/>
+		<arg value="${jruby.home}/bin/rake"/>
+		<arg value="RAILS_ENV=${rails.env}"/>
+		<arg value="db:migrate"/>
+      </java>
+  </target>
+	<target name="seed" depends="migrate">
+      <java fork="true" classname="org.jruby.Main">
+        <jvmarg value="-Xmx1024m -Xms512m"/>
+        <classpath refid="jruby.classpath"/>
+        <sysproperty key="jruby.home" value="${jruby.home}"/>
+		<arg value="${jruby.home}/bin/rake"/>
+		<arg value="RAILS_ENV=${rails.env}"/>
+		<arg value="db:seed"/>
+      </java>
+  </target>
+	<target name="clean" description="Cleans the database.">
+		<delete dir="${basedir}/tipptop_${rails.env}"/>
+  </target>
+	<target name="setup" depends="clean, seed" description="Creates a new database for the initial setup.">
+  </target>
+</project>

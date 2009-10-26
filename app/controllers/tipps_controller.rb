@@ -2,7 +2,11 @@ class TippsController < ApplicationController
   before_filter :require_user
 
   def index
-    @tipps = current_user.gamer.tipps
+    if params[:gamer_id]
+      @tipps = Gamer.find(params[:gamer_id]).tipps
+    else
+      @tipps = current_user.gamer.tipps
+    end
   end
 
   def show
@@ -22,7 +26,7 @@ class TippsController < ApplicationController
   def create
     @tipp = current_user.gamer.tipps.new(params[:tipp])
     @tipp.game_id = params[:game_id]
-    
+
     if @tipp.save
       flash[:notice] = "Ihr Tippspiel wurde erfolgreich gespeichert."
       redirect_to games_url
@@ -33,6 +37,15 @@ class TippsController < ApplicationController
   end
 
   def update
+    @tipp = Tipp.find(params[:id])
+
+    if @tipp.update_attributes(params[:tipp])
+      flash[:notice] = "Tippänderung wurde gespeichert"
+      redirect_to games_url
+    else
+      flash[:notice] = "Tippänderung wurde nicht gespeichert"
+      redirect_to edit_tipp_url(@tipp)
+    end
   end
 
   def destroy

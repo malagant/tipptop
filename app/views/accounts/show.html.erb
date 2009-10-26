@@ -1,6 +1,11 @@
 <h2>Mein Account</h2>
 <ul>
-<li><%= link_to "Spielerdetails bearbeiten", edit_user_gamer_url(current_user) if current_user.gamer %></li>
-<li><%= link_to "Spielerdetails anlegen", new_user_gamer_url(current_user) unless current_user.gamer %></li>
-<li><%= link_to "Meine Tipps", gamer_tipps_url(current_user.gamer) if current_user.gamer %></li>
+  <% if is_admin? %>
+      <li><%= link_to "Einstellungen", "#" %></li>
+  <% else %>
+      <li><%= link_to "Spielerdetails bearbeiten", edit_user_gamer_url(current_user) if current_user.gamer %></li>
+      <li><%= link_to "Spielerdetails anlegen", new_user_gamer_url(current_user) unless current_user.gamer %></li>
+      <li><%= link_to "Meine Tipps", gamer_tipps_url(current_user.gamer) if current_user.gamer %></li>
+      <li><%= link_to "Kündigen", retire_url(current_user), :method => :put, :confirm => "Wollen Sie wirklich kündigen?" if current_user %></li>
+  <% end %>
 </ul>

@@ -1,5 +1,5 @@
 <% if current_user %>
-    <p>Sie sind als <%= current_user.email %> angemeldet. <%= link_to 'Abmelden', logout_path %>.</p>
+    <p>Sie sind als <%= current_user.nickname %> angemeldet. <%= link_to 'Abmelden', logout_path %>.</p>
 <% else %>
     <p>Hier k&ouml;nnen Sie sich <%= link_to 'anmelden', login_path %> oder <%= link_to 'registrieren', signup_path %>.</p>
 <% end %>

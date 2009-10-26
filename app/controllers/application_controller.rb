@@ -34,7 +34,7 @@ class ApplicationController < ActionController::Base
 
   def require_admin
     unless current_user && current_user.role_name == 'admin'
-      flash[:notice] = 'Diese Funktion ist nur fŸr Administratoren.'
+      flash[:notice] = 'Diese Funktion ist nur fï¿½r Administratoren.'
       redirect_to new_user_session_url
       return false
     end
@@ -56,5 +56,15 @@ class ApplicationController < ActionController::Base
       redirect_to account_url
       return false
     end
+  end
+
+  public 
+
+  def current_menu_item=(item)
+    session[:current_menu_item] = item
+  end
+
+  def current_menu_item
+    session[:current_menu_item]
   end
 end

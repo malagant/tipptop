@@ -1,67 +1,67 @@
 --- !ruby/object:Gem::Specification 
-required_ruby_version: !ruby/object:Gem::Requirement 
-  requirements: 
-  - - '>='
-    - !ruby/object:Gem::Version 
-      version: "0"
-  version: 
-email: flori@ping.de
-cert_chain: []
-
-summary: Ruby library that colors strings using ANSI escape sequences
-post_install_message: 
-extra_rdoc_files: 
-- doc-main.txt
-homepage: http://term-ansicolor.rubyforge.org
-signing_key: 
 name: term-ansicolor
-rdoc_options: 
-- --main
-- doc-main.txt
-rubyforge_project: term-ansicolor
-autorequire: 
-licenses: []
-
-executables: []
-
-description: ""
-specification_version: 3
-default_executable: 
-files: 
-- CHANGES
-- COPYING
-- README
-- Rakefile
-- VERSION
-- examples/cdiff.rb
-- examples/example.rb
-- install.rb
-- lib/term/ansicolor.rb
-- lib/term/ansicolor/version.rb
-- term-ansicolor.gemspec
-- doc-main.txt
-required_rubygems_version: !ruby/object:Gem::Requirement 
-  requirements: 
-  - - '>='
-    - !ruby/object:Gem::Version 
-      version: "0"
-  version: 
-extensions: []
-
-rubygems_version: 1.3.5
-requirements: []
-
-authors: 
-- Florian Frank
-date: 2009-07-22 22:00:00 +00:00
-platform: ruby
-test_files: []
-
 version: !ruby/object:Gem::Version 
   version: 1.0.4
-require_paths: 
-- lib
+platform: ruby
+authors: 
+  - Florian Frank
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2009-07-23 00:00:00 +02:00
+default_executable: 
 dependencies: []
 
-bindir: bin
+description: ""
+email: flori@ping.de
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+  - doc-main.txt
+files: 
+  - CHANGES
+  - COPYING
+  - README
+  - Rakefile
+  - VERSION
+  - examples/cdiff.rb
+  - examples/example.rb
+  - install.rb
+  - lib/term/ansicolor.rb
+  - lib/term/ansicolor/version.rb
+  - term-ansicolor.gemspec
+  - doc-main.txt
 has_rdoc: true
+homepage: http://term-ansicolor.rubyforge.org
+licenses: []
+
+post_install_message: 
+rdoc_options: 
+  - --main
+  - doc-main.txt
+require_paths: 
+  - lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        version: "0"
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        version: "0"
+  version: 
+requirements: []
+
+rubyforge_project: term-ansicolor
+rubygems_version: 1.3.5
+signing_key: 
+specification_version: 3
+summary: Ruby library that colors strings using ANSI escape sequences
+test_files: []
+

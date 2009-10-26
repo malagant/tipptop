@@ -1,6 +1,6 @@
 <h3><%= team_helper(@tipp.game.team_one) %> gegen <%= team_helper(@tipp.game.team_two) %></h3>
 <p>
-<% form_for(@tipp, :url => game_tipps_path(@tipp.game)) do |f| %>
+<% form_for(@tipp, :url => game_tipp_url(@tipp.game)) do |f| %>
     <%= team_helper(@tipp.game.team_one) %><br><%= f.text_field :goals_one %><br/><%= team_helper(@tipp.game.team_two) %><br/> <%= f.text_field :goals_two %><br/><br/>
     <%= f.submit "Tippen" %>
 <% end %>

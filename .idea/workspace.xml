@@ -2,17 +2,68 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="b967e85f-db71-4b7f-a0b5-62a1f1d6b605" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/actionpack/test/controller/send_file_test.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tipptop.iml" afterPath="$PROJECT_DIR$/.idea/tipptop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/activerecord-jdbcderby-adapter-0.9.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/activerecord-jdbcderby-adapter-0.9.2/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/activesupport/lib/active_support/vendor/tzinfo-0.3.12/tzinfo/definitions/Asia/Yekaterinburg.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/actionpack/test/template/text_helper_test.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/teams_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/teams_helper.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/actionpack/test/controller/html-scanner/tag_node_test.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/makandra-aegis-1.1.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/makandra-aegis-1.1.2/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/cucumber-0.3.104/.specification" afterPath="$PROJECT_DIR$/vendor/gems/cucumber-0.3.104/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/builder-2.1.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/builder-2.1.2/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tipps_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tipps_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tipps/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/tipps/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/term-ansicolor-1.0.4/.specification" afterPath="$PROJECT_DIR$/vendor/gems/term-ansicolor-1.0.4/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/content_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/content_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tipps/index.html.erb" afterPath="$PROJECT_DIR$/app/views/tipps/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/games/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/de.yml" afterPath="$PROJECT_DIR$/config/locales/de.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/polyglot-0.2.9/.specification" afterPath="$PROJECT_DIR$/vendor/gems/polyglot-0.2.9/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/content/terms_and_rules.html.erb" afterPath="$PROJECT_DIR$/app/views/content/terms_and_rules.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/rack-1.0.0/.specification" afterPath="$PROJECT_DIR$/vendor/gems/rack-1.0.0/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/rubyist-aasm-2.1.1/.specification" afterPath="$PROJECT_DIR$/vendor/gems/rubyist-aasm-2.1.1/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/activerecord-jdbc-adapter-0.9.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/activerecord-jdbc-adapter-0.9.2/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/team.rb" afterPath="$PROJECT_DIR$/app/models/team.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tipptop.iml" afterPath="$PROJECT_DIR$/.idea/tipptop.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/content/imprint.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/hall_of_fame_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/hall_of_fame_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/game.rb" afterPath="$PROJECT_DIR$/app/models/game.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/groups/index.html.erb" afterPath="$PROJECT_DIR$/app/views/groups/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/treetop-1.4.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/treetop-1.4.2/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb" afterPath="$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/accounts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/accounts/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_main_menu.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_main_menu.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/index.html.erb" afterPath="$PROJECT_DIR$/app/views/games/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/vendor_gem_source_index.rb" afterPath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/vendor_gem_source_index.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/gem_dependency.rb" afterPath="$PROJECT_DIR$/vendor/rails/railties/lib/rails/gem_dependency.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tipps/show.html.erb" afterPath="$PROJECT_DIR$/app/views/tipps/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/diff-lcs-1.1.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/diff-lcs-1.1.2/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/rspec-rails-1.2.7.1/.specification" afterPath="$PROJECT_DIR$/vendor/gems/rspec-rails-1.2.7.1/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_login_info.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_login_info.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/rspec-1.2.8/.specification" afterPath="$PROJECT_DIR$/vendor/gems/rspec-1.2.8/.specification" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rails/activerecord/test/cases/fixtures_test.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/authlogic-2.1.2/.specification" afterPath="$PROJECT_DIR$/vendor/gems/authlogic-2.1.2/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/groups_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/groups_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gems/jdbc-derby-10.5.3.0/.specification" afterPath="$PROJECT_DIR$/vendor/gems/jdbc-derby-10.5.3.0/.specification" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/tipps_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/tipps_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/teams_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/teams_controller.rb" />
     </list>
-    <ignored path="tipptop.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="tipptop_development/" />
+    <ignored path="log/" />
+    <ignored path="tipptop.iws" />
+    <ignored path="tipptop_production/" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,79 +81,79 @@
   <component name="DisabledGemRequirementsHolder">
     <module name="tipptop">
       <requirement>
-        <dependency name="webrat" version="0.5.0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="faker" version="0.3.1" bound="LATEST_IN_BRANCH" />
-      </requirement>
-      <requirement>
-        <dependency name="RedCloth" version="4.1.1" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="text-format" version="0.6.3" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="tzinfo" version="0.3.12" bound="LATEST_IN_BRANCH" />
-      </requirement>
-      <requirement>
-        <dependency name="mocha" version="0.9.7" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="hoe" version="2.0.0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="addressable" version="2.0" bound="LATEST_IN_BRANCH" />
-      </requirement>
-      <requirement>
-        <dependency name="activerecord-jdbcmysql-adapter" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="rack-test" version="0.5.0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="term-ansicolor" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="spork" version="0.5.9" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="rbench" version="0.2.3" bound="LATEST_IN_BRANCH" />
-      </requirement>
-      <requirement>
-        <dependency name="treetop" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="rack" version="1.0.0" bound="LATEST_IN_BRANCH" />
-      </requirement>
-      <requirement>
-        <dependency name="ramaze" version="2009.07" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="test-unit" version="1.2.3" bound="EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="webrat" version="0.5.3" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="memcache-client" version="1.7.4" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="builder" version="2.1.2" bound="LATEST_IN_BRANCH" />
-      </requirement>
-      <requirement>
         <dependency name="genki-ruby-terminfo" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="sinatra" version="0.9.4" bound="EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="builder" version="0" bound="GREATER_OR_EQUAL" />
       </requirement>
       <requirement>
         <dependency name="aslakhellesoy-ansicolor" version="1.0" bound="GREATER_OR_EQUAL" />
       </requirement>
       <requirement>
+        <dependency name="spork" version="0.5.9" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="sinatra" version="0.9.4" bound="EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="builder" version="2.1.2" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="rbench" version="0.2.3" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="rack" version="1.0.0" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="RedCloth" version="4.1.1" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="tzinfo" version="0.3.12" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
         <dependency name="win32console" version="1.2.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="faker" version="0.3.1" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="webrat" version="0.5.3" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="webrat" version="0.5.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="hoe" version="2.0.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="text-format" version="0.6.3" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="term-ansicolor" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="builder" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="treetop" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="memcache-client" version="1.7.4" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="rack-test" version="0.5.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="ramaze" version="2009.07" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="activerecord-jdbcmysql-adapter" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="addressable" version="2.0" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="test-unit" version="1.2.3" bound="EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="mocha" version="0.9.7" bound="GREATER_OR_EQUAL" />
       </requirement>
     </module>
   </component>
@@ -113,27 +164,27 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="101" selection-start="1648" selection-end="1648" vertical-scroll-proportion="-11.846154">
+            <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.4615384">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teams_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/teams_helper.rb">
+      <file leaf-file-name="build.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="71" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+            <state line="28" column="44" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.50791365">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="environment.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="860" selection-end="860" vertical-scroll-proportion="0.16402878">
+            <state line="24" column="48" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -150,21 +201,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/news_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/news/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_news.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/news/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/accounts/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/content_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/content/imprint.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/content/terms_and_rules.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/news_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/hall_of_fame_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/tipps_controller.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/tipps_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/tipps/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb" />
-        <option value="$PROJECT_DIR$/vendor/rails/activerecord/lib/active_record/base.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/models/game.rb" />
-        <option value="$PROJECT_DIR$/public/stylesheets/styles.css" />
-        <option value="$PROJECT_DIR$/app/views/games/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/helpers/teams_helper.rb" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
+        <option value="$PROJECT_DIR$/build.xml" />
       </list>
     </option>
   </component>
@@ -200,7 +251,6 @@
       <sortByType ProjectPane="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,166 +279,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activerecord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activerecord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activerecord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="active_record" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixtures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -407,39 +297,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,26 +332,8 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user_sessions" />
+              <option name="myItemId" value="users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -514,8 +354,26 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="teams" />
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,28 +396,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="shared" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tipptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -647,7 +483,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="accounts" />
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -662,10 +498,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -708,6 +540,7 @@
         </subPane>
       </pane>
       <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="RailsProjectView">
         <subPane />
       </pane>
@@ -715,12 +548,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Debugger" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="ruby.project.structure" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: tipptop">
     <configuration default="false" name="db:setup" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
@@ -1034,7 +867,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.40650406" order="1" side_tool="true" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23925501" sideWeight="0.6612466" order="0" side_tool="false" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23853868" sideWeight="0.66260165" order="0" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972898" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.56639564" sideWeight="0.5" order="2" side_tool="false" x="38" y="113" width="1537" height="932" />
@@ -1043,7 +876,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282532" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32791328" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" />
@@ -1086,88 +919,100 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="63" selection-start="334" selection-end="334" vertical-scroll-proportion="-11.692307" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/content_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="10" column="4" selection-start="150" selection-end="150" vertical-scroll-proportion="0.2777778" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/accounts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/content/imprint.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="11" column="4" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/content/terms_and_rules.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="48" selection-end="120" vertical-scroll-proportion="-1.4615384" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/news_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="54" selection-start="1486" selection-end="1486" vertical-scroll-proportion="-5.8461537" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/scaffold.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/rails/activerecord/lib/active_record/base.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="622" column="12" selection-start="32233" selection-end="32233" vertical-scroll-proportion="0.8295964" />
+        <state line="27" column="0" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.76681614" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="37" selection-start="794" selection-end="794" vertical-scroll-proportion="-0.3653846" />
+        <state line="72" column="0" selection-start="2217" selection-end="2217" vertical-scroll-proportion="0.9431988" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/game.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="733" selection-end="733" vertical-scroll-proportion="0.8611111" />
+        <state line="22" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="-16.076923" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/tipps_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="550" column="22" selection-start="15859" selection-end="15859" vertical-scroll-proportion="-6.730769" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="636" selection-end="636" vertical-scroll-proportion="0.5555556" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/rounds.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20091002093137_create_rounds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="101" selection-start="1648" selection-end="1648" vertical-scroll-proportion="-11.846154">
+        <state line="9" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.24084507">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/teams_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/hall_of_fame_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="71" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/login.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tipps/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="50" selection-start="354" selection-end="354" vertical-scroll-proportion="0.14200298">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="27" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.6666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/tipps_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="110" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_main_menu.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="860" selection-end="860" vertical-scroll-proportion="0.16402878">
+        <state line="24" column="48" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hall_of_fame/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.4615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="44" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.50791365">
           <folding />
         </state>
       </provider>

@@ -1,6 +1,7 @@
 <h2>Meine Tipps</h2>
 <% @tipps.each do |tipp| %>
-    <p><%= team_helper(tipp.game.team_one) %> : <%= team_helper(tipp.game.team_two) %><br/>
-    <%= tipp.goals_one %> : <%= tipp.goals_two %><br/></p>
-    <%= link_to "Bearbeiten", edit_game_tipp_url(tipp.game, tipp) %>
+    <p><%= team_helper(tipp.game.team_one) %> <%= tipp.goals_one %> : <%= tipp.goals_two %> <%= team_helper(tipp.game.team_two) %><br/>
+    </p>
+    <%= link_to "Bearbeiten", edit_game_tipp_url(tipp.game, tipp) if current_user.gamer == tipp.gamer %><br/>
+    <%= link_to "Zur&uuml;ck", hall_of_fame_index_url %>
 <% end %>

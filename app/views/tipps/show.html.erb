@@ -1,2 +1,5 @@
-<h1>Tipps#show</h1>
-<p>Find me in app/views/tipps/show.html.erb</p>
+<h2>Tipp für <%= @tipp.game.team_one.country %> gegen <%= @tipp.game.team_two.country %></h2>
+<h3>
+  <%= @tipp.goals_one %> : <%= @tipp.goals_two %>
+</h3>
+<p><%= link_to "Zum Spielplan", games_url %></p>

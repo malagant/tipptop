@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_filter :require_no_user
+  before_filter :require_no_user, :except => :retire
 
   def new
     @user = User.new
@@ -8,7 +8,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user])
     if @user.save
-      flash[:notice] = 'Vielen Dank fŸr Ihre Regisitrierung. Wir haben Ihnen einen Aktivierungsemail geschickt.'
+      flash[:notice] = 'Vielen Dank fï¿½r Ihre Regisitrierung. Wir haben Ihnen einen Aktivierungsemail geschickt.'
       redirect_back_or_default root_url
     else
       render :new
@@ -25,5 +25,10 @@ class UsersController < ApplicationController
       flash[:notice] = 'Gratulation, Sie haben diesen Account erfolgreich aktiviert.'
     end
     redirect_back_or_default login_url
+  end
+
+  def retire
+    current_user.retire!
+    redirect_to root_url
   end
 end

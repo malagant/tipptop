@@ -6,7 +6,13 @@
     <table>
       <% group.games.each do |game| %>
           <tr>
-            <td align="left"><strong><%= l game.gametime %></strong></td>
+            <% if game.started? %>
+                <td align="left"><strong>Spiel l&auml;uft</strong></td>
+            <% elsif game.finished? %>
+                <td align="left"><strong>Spiel beendet</strong></td>
+            <% else %>
+                <td align="left"><strong><%= l game.gametime %></strong></td>
+            <% end %>
             <td colspan="2" align="left"><strong><%= game.stadium.name %></strong></td>
           </tr>
           <tr>
@@ -16,12 +22,7 @@
               : <%= game.goals_team_two %>    <%= image_tag(game.team_two.flag_uri) %>
               <%= team_helper(game.team_two) %>
             </td>
-
-            <% unless is_admin? %>
-                <td><%= tipp_helper(game) %></td>
-            <% else %>
-                <td><%= link_to image_tag("/images/edit.jpg", :title => "Bearbeiten"), edit_game_url(game) %></td>
-            <% end %>
+            <td><%= tipp_helper(game) %></td>
           </tr>
       <% end %>
     </table>
@@ -32,7 +33,13 @@
     <table>
       <% round.games.each do |game| %>
           <tr>
-            <td align="left"><strong><%= l game.gametime %></strong></td>
+            <% if game.started? %>
+                <td align="left"><strong>Spiel l&auml;uft</strong></td>
+            <% elsif game.finished? %>
+                <td align="left"><strong>Spiel beendet</strong></td>
+            <% else %>
+                <td align="left"><strong><%= l game.gametime %></strong></td>
+            <% end %>
             <td colspan="2" align="left"><strong><%= game.stadium.name %></strong></td>
           </tr>
           <tr>
@@ -42,12 +49,7 @@
               : <%= game.goals_team_two %>    <%= image_tag(game.team_two.flag_uri) if game.team_two %>
               <%= team_helper(game.team_two) %>
             </td>
-
-            <% unless is_admin? %>
                 <td><%= tipp_helper(game) %></td>
-            <% else %>
-                <td><%= link_to image_tag("/images/edit.jpg", :title => "Bearbeiten"), edit_game_url(game) %></td>
-            <% end %>
           </tr>
       <% end %>
     </table>

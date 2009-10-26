@@ -12,8 +12,8 @@ de:
 
     day_names: [Sonntag, Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag]
     abbr_day_names: [So, Mo, Di, Mi, Do, Fr, Sa]
-    month_names: [~, Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember]
-    abbr_month_names: [~, Jan, Feb, Mär, Apr, Mai, Jun, Jul, Aug, Sep, Okt, Nov, Dez]
+    month_names: [~, Januar, Februar, MÔøΩrz, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember]
+    abbr_month_names: [~, Jan, Feb, MÔøΩr, Apr, Mai, Jun, Jul, Aug, Sep, Okt, Nov, Dez]
     order: [ :day, :month, :year ]
 
   time:
@@ -76,7 +76,7 @@ de:
       delimiter: '.'
     currency:
       format:
-        unit: '€'
+        unit: '‚Ç¨'
         format: '%n%u'
         separator:
         delimiter:
@@ -116,42 +116,42 @@ de:
         header:
           one: "Konnte dieses {{model}} Objekt nicht speichern: 1 Fehler."
           other: "Konnte dieses {{model}} Objekt nicht speichern: {{count}} Fehler."
-        body: "Bitte überprüfen Sie die folgenden Meldungen:"
+        body: "Bitte √ºberpr√ºfen Sie die folgenden Meldungen:"
 
       messages:
-        inclusion: "ist kein gültiger Wert"
-        exclusion: "ist nicht verfügbar"
-        invalid: "ist nicht gültig"
-        confirmation: "stimmt nicht mit der Bestätigung überein"
+        inclusion: "ist kein g√ºltiger Wert"
+        exclusion: "ist nicht verf√ºgbar"
+        invalid: "ist nicht g√ºltig"
+        confirmation: "stimmt nicht mit der Best√§tigung √ºberein"
         accepted: "muss akzeptiert werden"
-        empty: "muss ausgefüllt werden"
-        blank: "muss ausgefüllt werden"
+        empty: "muss ausgef√ºllt werden"
+        blank: "muss ausgef√ºllt werden"
         too_long: "ist zu lang (nicht mehr als {{count}} Zeichen)"
         too_short: "ist zu kurz (nicht weniger als {{count}} Zeichen)"
-        wrong_length: "hat die falsche Länge (muss genau {{count}} Zeichen haben)"
+        wrong_length: "hat die falsche L√§nge (muss genau {{count}} Zeichen haben)"
         taken: "ist bereits vergeben"
         not_a_number: "ist keine Zahl"
-        greater_than: "muss größer als {{count}} sein"
-        greater_than_or_equal_to: "muss größer oder gleich {{count}} sein"
+        greater_than: "muss gr√∂√üer als {{count}} sein"
+        greater_than_or_equal_to: "muss gr√∂√üer oder gleich {{count}} sein"
         equal_to: "muss genau {{count}} sein"
         less_than: "muss kleiner als {{count}} sein"
         less_than_or_equal_to: "muss kleiner oder gleich {{count}} sein"
         odd: "muss ungerade sein"
         even: "muss gerade sein"
-        record_invalid: "Gültigkeitsprüfung ist fehlgeschlagen: {{errors}}"
+        record_invalid: "G√ºltigkeitspr√ºfung ist fehlgeschlagen: {{errors}}"
   authlogic:
     error_messages:
       login_blank: "muss angegeben werden"
-      login_not_found: "ist ungültig"
+      login_not_found: "ist ung√ºltig"
       login_invalid: "sollte nur Zeiche, Zahlen, Leerzeichen und .-_@ enthalten"
       consecutive_failed_logins_limit_exceeded: "Ihr Konto wurde nach zu vielen Fehlversuchen gesperrt"
       email_invalid: "sollte wie eine Emailadresse aussehen"
       password_blank: "muss angegeben werden"
-      password_invalid: "ist ungültig"
+      password_invalid: "ist ung√ºltig"
       not_active: "Ihr Konto ist nicht aktiv"
-      not_confirmed: "Ihr Konto wurde noch nicht bestätigt"
+      not_confirmed: "Ihr Konto wurde noch nicht best√§tigt"
       not_approved: "Ihr Konto wurde nicht freigeschaltet"
-      no_authentication_details: "Sie haben keine Daten für die Anmeldung angegeben"
+      no_authentication_details: "Sie haben keine Daten f√ºr die Anmeldung angegeben"
     models:
       user_session: "UserSession"
     attributes:

@@ -6,6 +6,7 @@
       <thead>
       <tr>
       <th colspan="2" align="left">Gruppe <%= h group.name %></th>
+      <th>Land</th>
       <th>SP</th>
       <th>S</th>
       <th>U</th>
@@ -16,9 +17,9 @@
       </tr>
       <tbody>
       <% group.teams.each do |team| %>
-          <tr>
+          <tr valign="middle">
             <td><%= count += 1 %></td>
-            <td><%= image_tag(team.flag_uri) %><%= h team.country %></td>
+            <td><%= image_tag(team.flag_uri) %></td><td>    <%= h team.country %></td>
             <td><%= h team.games %></td>
             <td><%= h team.wins %></td>
             <td><%= h team.draw %></td>

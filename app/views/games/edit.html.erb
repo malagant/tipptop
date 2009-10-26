@@ -6,8 +6,15 @@
     <%= link_to "Spiel beenden", game_finish_url(@game), :method => :put %>
 <% elsif @game.finished? %>
     Spiel ist beendet
-<% else %>
-    <% form_for(@game) do |f| %>
-        <p><%= f.collection_select :team_one, team_list, :id, :country %> gegen <%= f.collection_select :team_two, team_list, :id, :country %></p> <p><%= f.submit "Speichern" %></p>
-    <% end %>
+<% elsif tipp_stop?(@game) %>
+    Es kann nicht mehr getippt werden.
 <% end %>
+<p>
+  <% form_for(@game) do |f| %>
+      <%= f.label :goals_team_one, "Tore für #{@game.team_one.country}" %><br>
+      <%= f.text_field :goals_team_one %><br>
+      <%= f.label :goals_team_two, "Tore für #{@game.team_two.country}" %><br>
+      <%= f.text_field :goals_team_two %><br>
+      <%= f.submit "Speichern" %>
+  <% end %>
+</p>

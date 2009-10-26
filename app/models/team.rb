@@ -28,6 +28,22 @@ class Team < ActiveRecord::Base
   end
 
   def self.countries
-    %w(SŸd\ Afrika Deutschland Holland England)
+    %w(SÃ¼d\ Afrika Deutschland Holland England)
+  end
+
+  def increase_games_by(value)
+    self.games += value
+  end
+
+  def increase_wins_by(value)
+    self.wins += value
+  end
+
+  def increase_draws_by(value)
+    self.draw += value
+  end
+
+  def increase_losses_by(value)
+    self.losses += value
   end
 end
