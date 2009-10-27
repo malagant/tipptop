@@ -198,7 +198,7 @@ h2 a {
 
 #menu a {
 	display: block;
-	width: 130px;
+	width: 120px;
 	height: 39px;
 	margin-left: 10px;
 	padding-top: 15px;
@@ -477,4 +477,9 @@ h2 a {
 #footer a {
 	text-decoration: underline;
 	color: #82A2B9;
+}
+
+
+.game_head_row td {
+    color: #82A2B9;
 }

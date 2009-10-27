@@ -2,17 +2,22 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :news, :singular => 'news_item'
 
   map.resources :user_sessions
-  map.resource :account, :only => :show
+  map.resource  :account, :only => :show
   map.resources :users, :has_one => :gamer
   map.resources :games, :has_many => :tipps
   map.resources :gamers, :has_many => :tipps
   map.resources :groups, :has_many => :teams
   map.resources :teams
+  map.resources :settings
   map.resources :hall_of_fame, :only => :index
+
+  map.refresh_all 'refresh_all', :controller => 'refresher',
+                 :action => 'update',
+                 :conditions => { :method => :put} 
 
   map.retire 'users/:id/retire', :controller => 'users',
                  :action => 'retire',
-                 :conditions => { :method => :put} 
+                 :conditions => { :method => :put}
 
   map.game_start 'games/:id/start', :controller => 'games',
                  :action => 'start',

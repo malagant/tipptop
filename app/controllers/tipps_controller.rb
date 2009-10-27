@@ -3,7 +3,8 @@ class TippsController < ApplicationController
 
   def index
     if params[:gamer_id]
-      @tipps = Gamer.find(params[:gamer_id]).tipps
+      @gamer = Gamer.find(params[:gamer_id])
+      @tipps = @gamer.tipps
     else
       @tipps = current_user.gamer.tipps
     end

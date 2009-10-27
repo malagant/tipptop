@@ -1,0 +1,9 @@
+<p>
+  <% form_for(@game) do |f| %>
+      <%= f.label :goals_team_one, "Tore für #{@game.team_one.country}" %><br>
+      <%= f.text_field :goals_team_one %><br>
+      <%= f.label :goals_team_two, "Tore für #{@game.team_two.country}" %><br>
+      <%= f.text_field :goals_team_two %><br>
+      <%= f.submit "Speichern" %>
+  <% end %>
+</p>

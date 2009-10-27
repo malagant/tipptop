@@ -4,6 +4,7 @@ class GamesController < ApplicationController
   def index
     @groups = Group.all(:include => [:games, :teams])
     @rounds = Round.all(:include => [:games, :teams])
+    self.current_menu_item = 'games'
   end
 
   def edit
@@ -39,6 +40,6 @@ class GamesController < ApplicationController
       @game = Game.find(params[:id])
       @game.finish!
     end
-    redirect_to games_url
+    redirect_to edit_game_url(@game)
   end
 end

@@ -10,6 +10,8 @@ class Game < ActiveRecord::Base
   belongs_to :team_one, :class_name => "Team", :foreign_key => "team_one"
   belongs_to :team_two, :class_name => "Team", :foreign_key => "team_two"
 
+  named_scope :finished, :conditions => ["status = ?", "finished"]
+
   attr_protected :status
 
   # Ein Game ist solange pending bis es beendet wurde
@@ -49,22 +51,16 @@ class Game < ActiveRecord::Base
   end
 
   def is_draw?
-    self.finished? and (self.goals_team_one == self.goals_team_two)
+    self.goals_team_one == self.goals_team_two
   end
 
   def winner
-    if self.finished?
-      self.goals_team_one > self.goals_team_two ? self.goals_team_one : self.goals_team_two
-    else
-      nil
-    end
+    return nil if is_draw?
+    self.goals_team_one > self.goals_team_two ? self.team_one : self.team_two
   end
 
   def loser
-    if self.finished?
-      self.goals_team_one < self.goals_team_two ? self.goals_team_one : self.goals_team_two
-    else
-      nil
-    end
+    return nil if is_draw?
+    self.goals_team_one < self.goals_team_two ? self.team_one : self.team_two
   end
 end

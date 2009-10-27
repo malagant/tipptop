@@ -2,33 +2,36 @@
 <% @groups.each do |group|
     count = 0
 %>
-    <table>
+    <h3>Gruppe <%= h group.name %></h3>
+    <table style="padding-bottom: 40px;">
       <thead>
       <tr>
-      <th colspan="2" align="left">Gruppe <%= h group.name %></th>
-      <th>Land</th>
-      <th>SP</th>
-      <th>S</th>
-      <th>U</th>
-      <th>N</th>
-      <th>T:G</th>
-      <th>P</th>
+      <th colspan="3" align="left" title="Land">Mannschaft</th>
+      <th align="right" title="Anzahl Spiele">SP</th>
+      <th align="right" title="Gewonnene Spiele">S</th>
+      <th align="right" title="Unendschieden">U</th>
+      <th align="right" title="Verlorene Spiele">N</th>
+      <th align="right" title="Tore">T</th>
+      <th align="center">:</th>
+      <th align="right" title="Gegentore">G</th>
+      <th align="right" title="Punkte">P</th>
       </thead>
       </tr>
       <tbody>
-      <% group.teams.each do |team| %>
-          <tr valign="middle">
+      <% group.teams.all(:order => 'points desc').each do |team| %>
+          <tr>
             <td><%= count += 1 %></td>
             <td><%= image_tag(team.flag_uri) %></td><td>    <%= h team.country %></td>
-            <td><%= h team.games %></td>
-            <td><%= h team.wins %></td>
-            <td><%= h team.draw %></td>
-            <td><%= h team.losses %></td>
-            <td><%= h team.goals_won %></td>
-            <td><%= h team.goals_lost %></td>
-            <td><%= h team.points %></td>
+            <td align="right"><%= h team.games %></td>
+            <td align="right"><%= h team.wins %></td>
+            <td align="right"><%= h team.draw %></td>
+            <td align="right"><%= h team.losses %></td>
+            <td align="right"><%= h team.goals_won %></td>
+            <td align="center">:</td>
+            <td align="left"><%= h team.goals_lost %></td>
+            <td align="right"><%= h team.points %></td>
             <% if is_admin? %>
-            <td><%= link_to image_tag("/images/edit.jpg", :title => "Bearbeiten"), edit_team_url(team) %></td>
+            <td><%= link_to image_tag("/images/edit.jpg", :size => "20x20", :title => "Bearbeiten"), edit_team_url(team) %></td>
             <% end %>
           </tr>
       <% end %>

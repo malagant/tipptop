@@ -1,16 +1,47 @@
+# Systemeinstellungen
+# TIPP_STOP ist der Grenzwert für die Abgabe von Tipps vor Beginn eines Spiels
+Setting.create(:name => "TIPP_STOP", :value => "30")
 # admin user erstellen
 
-u = User.create(:email => "admin@tipptop.net", :password => "topsecret", :password_confirmation => "topsecret", :role_name => 'admin')
+u = User.create(:email => "admin@tipptop.net", :nickname => "spacken", :password => "topsecret", :password_confirmation => "topsecret", :role_name => 'admin')
 u.confirm!
 u.reset_perishable_token!
 
 # Einen normalen user anlegen
-guest = User.create(:email => "bla@bla.com", :password => "topsecret", :password_confirmation => "topsecret")
+guest = User.create(:email => "bla@bla.com", :nickname => "challenger", :password => "topsecret", :password_confirmation => "topsecret")
 guest.confirm!
 guest.reset_perishable_token!
 
 # Einen gamer anlegen
-mjohann = User.create(:email => "mjohann@rails-experts.com", :password => "topsecret", :password_confirmation => "topsecret")
+mjohann = User.create(:email => "mjohann@rails-experts.com",  :nickname => "malagant", :password => "topsecret", :password_confirmation => "topsecret")
+mjohann.confirm!
+gamer = mjohann.build_gamer(:firstname => "Michael", :lastname => "Johann", :street1 => "Papeneschstr. 27a", :zipcode => "48565", :city => "Steinfurt", :country => "Deutschland")
+mjohann.role_name = 'gamer'
+gamer.save!
+
+# Einen gamer anlegen
+mjohann = User.create(:email => "strinsen@knipf.de",  :nickname => "strinsenknipf", :password => "topsecret", :password_confirmation => "topsecret")
+mjohann.confirm!
+gamer = mjohann.build_gamer(:firstname => "Michael", :lastname => "Johann", :street1 => "Papeneschstr. 27a", :zipcode => "48565", :city => "Steinfurt", :country => "Deutschland")
+mjohann.role_name = 'gamer'
+gamer.save!
+
+# Einen gamer anlegen
+mjohann = User.create(:email => "sack@huepfen.de",  :nickname => "rubywemser", :password => "topsecret", :password_confirmation => "topsecret")
+mjohann.confirm!
+gamer = mjohann.build_gamer(:firstname => "Michael", :lastname => "Johann", :street1 => "Papeneschstr. 27a", :zipcode => "48565", :city => "Steinfurt", :country => "Deutschland")
+mjohann.role_name = 'gamer'
+gamer.save!
+
+# Einen gamer anlegen
+mjohann = User.create(:email => "spacken@spacken.eu",  :nickname => "oberspacken", :password => "topsecret", :password_confirmation => "topsecret")
+mjohann.confirm!
+gamer = mjohann.build_gamer(:firstname => "Michael", :lastname => "Johann", :street1 => "Papeneschstr. 27a", :zipcode => "48565", :city => "Steinfurt", :country => "Deutschland")
+mjohann.role_name = 'gamer'
+gamer.save!
+
+# Einen gamer anlegen
+mjohann = User.create(:email => "info@entwickler.com",  :nickname => "entwickler", :password => "topsecret", :password_confirmation => "topsecret")
 mjohann.confirm!
 gamer = mjohann.build_gamer(:firstname => "Michael", :lastname => "Johann", :street1 => "Papeneschstr. 27a", :zipcode => "48565", :city => "Steinfurt", :country => "Deutschland")
 mjohann.role_name = 'gamer'
@@ -20,64 +51,64 @@ gamer.save!
 gruppe_a = Group.create!(:name => 'A')
 
 gruppe_a.teams << A1 = Team.create!( :position => 'A1', :country => 'Süd Afrika', :flag_uri => 'south_africa')
-gruppe_a.teams << A2 = Team.create!( :position => 'A2')
-gruppe_a.teams << A3 = Team.create!( :position => 'A3')
-gruppe_a.teams << A4 = Team.create!( :position => 'A4')
+gruppe_a.teams << A2 = Team.create!( :position => 'A2', :country => 'Argentinien', :flag_uri => 'argentinien')
+gruppe_a.teams << A3 = Team.create!( :position => 'A3', :country => 'Brasilien', :flag_uri => 'brasilien')
+gruppe_a.teams << A4 = Team.create!( :position => 'A4', :country => 'Elfenbeinküste', :flag_uri => 'elfenbein')
 
 
 gruppe_b = Group.create!(:name => 'B')
 
-gruppe_b.teams << B1 = Team.create!( :position => 'B1')
-gruppe_b.teams << B2 = Team.create!( :position => 'B2')
-gruppe_b.teams << B3 = Team.create!( :position => 'B3')
-gruppe_b.teams << B4 = Team.create!( :position => 'B4')
+gruppe_b.teams << B1 = Team.create!( :position => 'B1', :country => 'Australien', :flag_uri => 'australien')
+gruppe_b.teams << B2 = Team.create!( :position => 'B2', :country => 'Chile', :flag_uri => 'chile')
+gruppe_b.teams << B3 = Team.create!( :position => 'B3', :country => 'Dänemark', :flag_uri => 'daenemark')
+gruppe_b.teams << B4 = Team.create!( :position => 'B4', :country => 'Deutschland', :flag_uri => 'deutschland')
 
 gruppe_c = Group.create!(:name => 'C')
 
-gruppe_c.teams << C1 = Team.create!( :position => 'C1')
-gruppe_c.teams << C2 = Team.create!( :position => 'C2')
-gruppe_c.teams << C3 = Team.create!( :position => 'C3')
-gruppe_c.teams << C4 = Team.create!( :position => 'C4')
+gruppe_c.teams << C1 = Team.create!( :position => 'C1', :country => 'England', :flag_uri => 'england')
+gruppe_c.teams << C2 = Team.create!( :position => 'C2', :country => 'Ghana', :flag_uri => 'ghana')
+gruppe_c.teams << C3 = Team.create!( :position => 'C3', :country => 'Holland', :flag_uri => 'holland')
+gruppe_c.teams << C4 = Team.create!( :position => 'C4', :country => 'Italien', :flag_uri => 'italien')
 
 
 gruppe_d = Group.create!(:name => 'D')
 
-gruppe_d.teams << D1 = Team.create!( :position => 'D1')
-gruppe_d.teams << D2 = Team.create!( :position => 'D2')
-gruppe_d.teams << D3 = Team.create!( :position => 'D3')
-gruppe_d.teams << D4 = Team.create!( :position => 'D4')
+gruppe_d.teams << D1 = Team.create!( :position => 'D1', :country => 'Honduras', :flag_uri => 'honduras')
+gruppe_d.teams << D2 = Team.create!( :position => 'D2', :country => 'Schweiz', :flag_uri => 'schweiz')
+gruppe_d.teams << D3 = Team.create!( :position => 'D3', :country => 'Paraguay', :flag_uri => 'paraguay')
+gruppe_d.teams << D4 = Team.create!( :position => 'D4', :country => 'Serbien', :flag_uri => 'serbien')
 
 
 gruppe_e = Group.create!(:name => 'E')
 
-gruppe_e.teams << E1 = Team.create!( :position => 'E1')
-gruppe_e.teams << E2 = Team.create!( :position => 'E2')
-gruppe_e.teams << E3 = Team.create!( :position => 'E3')
-gruppe_e.teams << E4 = Team.create!( :position => 'E4')
+gruppe_e.teams << E1 = Team.create!( :position => 'E1', :country => 'Barbados', :flag_uri => 'barbados')
+gruppe_e.teams << E2 = Team.create!( :position => 'E2', :country => 'Tschad', :flag_uri => 'tschad')
+gruppe_e.teams << E3 = Team.create!( :position => 'E3', :country => 'Griechenland', :flag_uri => 'griechenland')
+gruppe_e.teams << E4 = Team.create!( :position => 'E4', :country => 'Ungarn', :flag_uri => 'ungarn')
 
 
 gruppe_f = Group.create!(:name => 'F')
 
-gruppe_f.teams << F1 = Team.create!( :position => 'F1')
-gruppe_f.teams << F2 = Team.create!( :position => 'F2')
-gruppe_f.teams << F3 = Team.create!( :position => 'F3')
-gruppe_f.teams << F4 = Team.create!( :position => 'F4')
+gruppe_f.teams << F1 = Team.create!( :position => 'F1', :country => 'Niegerien', :flag_uri => 'nigerien')
+gruppe_f.teams << F2 = Team.create!( :position => 'F2', :country => 'Panama', :flag_uri => 'panama')
+gruppe_f.teams << F3 = Team.create!( :position => 'F3', :country => 'Polen', :flag_uri => 'polen')
+gruppe_f.teams << F4 = Team.create!( :position => 'F4', :country => 'Senegal', :flag_uri => 'senegal')
 
 
 gruppe_g = Group.create!(:name => 'G')
 
-gruppe_g.teams << G1 = Team.create!( :position => 'G1')
-gruppe_g.teams << G2 = Team.create!( :position => 'G2')
-gruppe_g.teams << G3 = Team.create!( :position => 'G3')
-gruppe_g.teams << G4 = Team.create!( :position => 'G4')
+gruppe_g.teams << G1 = Team.create!( :position => 'G1', :country => 'Türkei', :flag_uri => 'tuerkei')
+gruppe_g.teams << G2 = Team.create!( :position => 'G2', :country => 'Jemen', :flag_uri => 'jemen')
+gruppe_g.teams << G3 = Team.create!( :position => 'G3', :country => 'Uganda', :flag_uri => 'uganda')
+gruppe_g.teams << G4 = Team.create!( :position => 'G4', :country => 'Süd Korea', :flag_uri => 'suedkorea')
 
 
 gruppe_h = Group.create!(:name => 'H')
 
-gruppe_h.teams << H1 = Team.create!( :position => 'H1')
-gruppe_h.teams << H2 = Team.create!( :position => 'H2')
-gruppe_h.teams << H3 = Team.create!( :position => 'H3')
-gruppe_h.teams << H4 = Team.create!( :position => 'H4')
+gruppe_h.teams << H1 = Team.create!( :position => 'H1', :country => 'U.S.A.', :flag_uri => 'usa')
+gruppe_h.teams << H2 = Team.create!( :position => 'H2', :country => 'Slowakai', :flag_uri => 'slowakai')
+gruppe_h.teams << H3 = Team.create!( :position => 'H3', :country => 'Japan', :flag_uri => 'japan')
+gruppe_h.teams << H4 = Team.create!( :position => 'H4', :country => 'Nord Korea', :flag_uri => 'nordkorea')
 
 stadia = Stadium.create!([
         {:name => 'Johannesburg (Soccer City)', :city => 'Johannesburg'},
@@ -107,6 +138,21 @@ game.team_one = A3
 game.team_two = A4
 game.group = gruppe_a
 game.save!
+# Gamer malagant
+Tipp.create(:gamer_id => 1, :game_id => 1, :goals_one => 2, :goals_two =>	2)
+Tipp.create(:gamer_id => 1, :game_id => 2, :goals_one => 3, :goals_two =>	1)
+Tipp.create(:gamer_id => 1, :game_id => 3, :goals_one => 4, :goals_two =>	4)
+Tipp.create(:gamer_id => 1, :game_id => 4, :goals_one => 1, :goals_two =>	0)
+Tipp.create(:gamer_id => 1, :game_id => 5, :goals_one => 0, :goals_two =>	0)
+Tipp.create(:gamer_id => 1, :game_id => 6, :goals_one => 3, :goals_two =>	1)
+
+# Gamer oberspacken
+Tipp.create(:gamer_id => 4, :game_id => 1, :goals_one => 1, :goals_two =>	3)
+Tipp.create(:gamer_id => 4, :game_id => 2, :goals_one => 2, :goals_two =>	1)
+Tipp.create(:gamer_id => 4, :game_id => 3, :goals_one => 5, :goals_two =>	0)
+Tipp.create(:gamer_id => 4, :game_id => 4, :goals_one => 0, :goals_two =>	2)
+Tipp.create(:gamer_id => 4, :game_id => 5, :goals_one => 0, :goals_two =>	4)
+Tipp.create(:gamer_id => 4, :game_id => 6, :goals_one => 3, :goals_two =>	3)
 
 game = Game.new( :gametime => '2010-06-16T00:00:00Z')
 game.stadium = Stadium.find_by_name('Tshwane/Pretoria')
@@ -571,5 +617,8 @@ game.save!
 
 finale.games << game
 
-
+# Einige News, um die News-Sektion anzuzeigen
+News.create(:title => "Deutschland vorab Weltmeister 2010", :text => "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.")
+News.create(:title => "", :text => "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.")
+News.create(:title => "Deutschland vorab Weltmeister 2010", :text => "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.")
 

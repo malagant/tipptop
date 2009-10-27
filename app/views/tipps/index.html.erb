@@ -1,7 +1,21 @@
-<h2>Meine Tipps</h2>
-<% @tipps.each do |tipp| %>
-    <p><%= team_helper(tipp.game.team_one) %> <%= tipp.goals_one %> : <%= tipp.goals_two %> <%= team_helper(tipp.game.team_two) %><br/>
-    </p>
-    <%= link_to "Bearbeiten", edit_game_tipp_url(tipp.game, tipp) if current_user.gamer == tipp.gamer %><br/>
-    <%= link_to "Zur&uuml;ck", hall_of_fame_index_url %>
-<% end %>
+<h2>Tipps von <%= @gamer.user.nickname %></h2>
+<table>
+  <thead>
+  <th colspan="7">Spiel</th>
+  <th>Aktion</th>
+  </thead>
+  <% @tipps.each do |tipp| %>
+      <tr>
+        <td align="right"><%= team_helper(tipp.game.team_one) %></td>
+        <td align="right"><%= image_tag(tipp.game.team_one.flag_uri, :size => "20x20") %></td>
+        <td align="right"><%= tipp.goals_one %></td>
+        <td align="center">:</td>
+        <td align="left"><%= tipp.goals_two %></td>
+        <td align="left"><%= image_tag(tipp.game.team_two.flag_uri, :size => "20x20") %></td>
+        <td align="left"><%= team_helper(tipp.game.team_two) %></td>
+        <td><%= link_to image_tag("/images/edit.jpg", :size => "20x20", :title => "Bearbeiten"), edit_game_tipp_url(tipp.game, tipp) if current_user.gamer == tipp.gamer and !TippsHelper.tipp_stop? tipp.game %>
+        </td>
+      </tr>
+  <% end %>
+</table>
+<p><%= link_to "Zur&uuml;ck", hall_of_fame_index_url %></p>

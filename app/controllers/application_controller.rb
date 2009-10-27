@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
   filter_parameter_logging :password, :password_confirmation
 
   protected
-
+   
   def store_location
     session[:return_to] = request.request_uri
   end
@@ -43,7 +43,7 @@ class ApplicationController < ActionController::Base
   def require_user
     unless logged_in?
       store_location
-      flash[:notice] = 'Please login in to access this page!'
+      flash[:notice] = 'Bitte melden Sie sich an, um diese Seite anzuzeigen.'
       redirect_to new_user_session_url
       return false
     end
@@ -52,7 +52,7 @@ class ApplicationController < ActionController::Base
   def require_no_user
     if logged_in?
       store_location
-      flash[:notice] = 'Please logout to access this page!'
+      flash[:notice] = 'Bitte melden Sie sich ab, um diese Seite anzuzeigen.'
       redirect_to account_url
       return false
     end
@@ -61,6 +61,7 @@ class ApplicationController < ActionController::Base
   public 
 
   def current_menu_item=(item)
+    logger.info("+++ item = #{item}")
     session[:current_menu_item] = item
   end
 

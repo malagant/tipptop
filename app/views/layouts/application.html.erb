@@ -16,8 +16,11 @@ Released   : 20090918
   <meta http-equiv="content-Type" content="text/html; charset=utf-8">
   <title>TippTop - Das Tippspiel f&uuml;r die WM 2010</title>
   <%= javascript_include_tag :defaults %>
+  <%= javascript_include_tag "jquery.autocomplete.js" %>
   <%= stylesheet_link_tag 'styles' %>
+  <%= stylesheet_link_tag 'autocomplete' %>
 </head>
+<%= render :partial => "shared/feedback" %>
 <body>
 <div id="wrapper">
   <div id="header">

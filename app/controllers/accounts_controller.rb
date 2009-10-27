@@ -7,6 +7,7 @@ class AccountsController < ApplicationController
 
   def show
     @account = current_user
+    self.current_menu_item = "account"
   end
 
   def edit

@@ -3,54 +3,18 @@
 <% @groups.each do |group| %>
     <% count = 0 %>
     <h4>Gruppe <%= h group.name %></h4>
-    <table>
+    <table id="pregroups">
       <% group.games.each do |game| %>
-          <tr>
-            <% if game.started? %>
-                <td align="left"><strong>Spiel l&auml;uft</strong></td>
-            <% elsif game.finished? %>
-                <td align="left"><strong>Spiel beendet</strong></td>
-            <% else %>
-                <td align="left"><strong><%= l game.gametime %></strong></td>
-            <% end %>
-            <td colspan="2" align="left"><strong><%= game.stadium.name %></strong></td>
-          </tr>
-          <tr>
-            <td colspan="3">
-              <%= team_helper(game.team_one) %>
-              <%= image_tag(game.team_one.flag_uri) %>    <%= game.goals_team_one %>
-              : <%= game.goals_team_two %>    <%= image_tag(game.team_two.flag_uri) %>
-              <%= team_helper(game.team_two) %>
-            </td>
-            <td><%= tipp_helper(game) %></td>
-          </tr>
+      <%= render :partial => 'row', :locals => {:game => game} %>
       <% end %>
     </table>
 <% end %>
 <h3>Finalrunden</h3>
 <% @rounds.each do |round| %>
     <h4><%= h round.name %></h4>
-    <table>
+    <table id="finalrounds">
       <% round.games.each do |game| %>
-          <tr>
-            <% if game.started? %>
-                <td align="left"><strong>Spiel l&auml;uft</strong></td>
-            <% elsif game.finished? %>
-                <td align="left"><strong>Spiel beendet</strong></td>
-            <% else %>
-                <td align="left"><strong><%= l game.gametime %></strong></td>
-            <% end %>
-            <td colspan="2" align="left"><strong><%= game.stadium.name %></strong></td>
-          </tr>
-          <tr>
-            <td colspan="3">
-              <%= team_helper(game.team_one) %>
-              <%= image_tag(game.team_one.flag_uri) if game.team_one %>    <%= game.goals_team_one %>
-              : <%= game.goals_team_two %>    <%= image_tag(game.team_two.flag_uri) if game.team_two %>
-              <%= team_helper(game.team_two) %>
-            </td>
-                <td><%= tipp_helper(game) %></td>
-          </tr>
-      <% end %>
+          <%= render :partial => 'row', :locals => {:game => game} %>
+    <% end %>
     </table>
 <% end %>

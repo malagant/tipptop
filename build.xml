@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project basedir="." default="run" name="tipptop">
+<project basedir="." default="run_cmd" name="tipptop">
 	<property name="jruby.home" location="${basedir}/jruby-1.4.0RC2"/>
 	<property name="rails.env" value="development"/>
 	<path id="jruby.classpath">
 		<fileset dir="${jruby.home}/lib" includes="*.jar"/>
     </path>
 	<target name="run">
-      <java fork="true" classname="org.jruby.Main">
+      <java fork="true" spawn="true" classname="org.jruby.Main">
         <classpath refid="jruby.classpath"/>
         <sysproperty key="jruby.home" value="${jruby.home}"/>
 		<arg value="script/server"/>
 		<arg value="-e${rails.env}"/>
       </java>
+  </target>
+	<target name="run_cmd">
+      <exec executable="${jruby.home}/bin/jruby">
+		<arg value="script/server"/>
+		<arg value="-e${rails.env}"/>
+      </exec>
   </target>
 
 	<target name="migrate">

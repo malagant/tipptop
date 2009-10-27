@@ -1,0 +1,20 @@
+<tr class="game_head_row">
+  <% if game.started? %>
+      <td  colspan="6" align="left"><strong>Spiel l&auml;uft</strong></td>
+  <% elsif game.finished? %>
+      <td  colspan="6" align="left"><strong>Spiel beendet</strong></td>
+  <% else %>
+      <td  colspan="6" align="left"><strong><%= l game.gametime %></strong></td>
+  <% end %>
+  <td align="left"><strong><%= game.stadium.name %></strong></td>
+</tr>
+<tr>
+  <td align="right"><%= team_helper(game.team_one) %></td>
+  <td align="right"><%= image_tag(game.team_one.flag_uri, :size => "20x20") if game.team_one%></td>
+  <td align="right"><%= game.goals_team_one %></td>
+  <td align="center">:</td>
+  <td align="left"><%= game.goals_team_two %></td>
+  <td align="left"><%= image_tag(game.team_two.flag_uri, :size => "20x20") if game.team_two %></td>
+  <td align="left"><%= team_helper(game.team_two) %></td>
+  <td><%= tipp_helper(game) %></td>
+</tr>

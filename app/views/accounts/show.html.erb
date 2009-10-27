@@ -1,8 +1,9 @@
 <h2>Mein Account</h2>
 <ul>
   <% if is_admin? %>
-      <li><%= link_to "Einstellungen", "#" %></li>
-  <% else %>
+      <li><%= link_to "Einstellungen", settings_url %></li>
+      <li><%= link_to "Abgleich starten", refresh_all_url, :method => :put, :confirm => "Wenn der Abgleich gestartet wurde, kann dieser nicht rückgängig gemacht werden.\nWirklich starten?" if current_user %></li>
+<% else %>
       <li><%= link_to "Spielerdetails bearbeiten", edit_user_gamer_url(current_user) if current_user.gamer %></li>
       <li><%= link_to "Spielerdetails anlegen", new_user_gamer_url(current_user) unless current_user.gamer %></li>
       <li><%= link_to "Meine Tipps", gamer_tipps_url(current_user.gamer) if current_user.gamer %></li>

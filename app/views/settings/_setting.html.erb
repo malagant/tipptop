@@ -1,0 +1,10 @@
+<% form_for(@setting) do |f| %>
+    <% if controller.action_name == 'edit' %>
+        <%= f.label :value, setting.name %>
+    <% elsif controller.action_name == 'new' %>
+        <%= f.text_field :name, :value => "NAME" %>
+    <% end %>
+    <%= f.text_field :value %><br/>
+    <%= f.submit "Speichern" %>
+<% end %>
+<p><%= link_to "Zur&uuml;ck", settings_url %></p>

@@ -4,17 +4,10 @@
 <% end %>
 <% if @game.started? %>
     <%= link_to "Spiel beenden", game_finish_url(@game), :method => :put %>
+    <%= render :partial => 'form' %>
 <% elsif @game.finished? %>
     Spiel ist beendet
-<% elsif tipp_stop?(@game) %>
+    <%= render :partial => 'form' %>
+<% elsif TippsHelper.tipp_stop?(@game) %>
     Es kann nicht mehr getippt werden.
 <% end %>
-<p>
-  <% form_for(@game) do |f| %>
-      <%= f.label :goals_team_one, "Tore für #{@game.team_one.country}" %><br>
-      <%= f.text_field :goals_team_one %><br>
-      <%= f.label :goals_team_two, "Tore für #{@game.team_two.country}" %><br>
-      <%= f.text_field :goals_team_two %><br>
-      <%= f.submit "Speichern" %>
-  <% end %>
-</p>
