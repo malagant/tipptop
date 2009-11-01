@@ -11,7 +11,8 @@ class CreateGamers < ActiveRecord::Migration
       t.string :country
       t.string :phone
       t.string :twitter
-
+      t.integer :points, :default => 0
+      
       t.timestamps
     end
   end

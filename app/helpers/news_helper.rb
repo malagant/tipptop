@@ -1,5 +1,5 @@
 module NewsHelper
   def all_news
-    News.all
+    @news_items ||= News.paginate :page => params[:page], :per_page => 2
   end
 end

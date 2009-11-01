@@ -1,6 +1,3 @@
-# Systemeinstellungen
-# TIPP_STOP ist der Grenzwert für die Abgabe von Tipps vor Beginn eines Spiels
-Setting.create(:name => "TIPP_STOP", :value => "30")
 # admin user erstellen
 
 u = User.create(:email => "admin@tipptop.net", :nickname => "spacken", :password => "topsecret", :password_confirmation => "topsecret", :role_name => 'admin')
@@ -618,7 +615,10 @@ game.save!
 finale.games << game
 
 # Einige News, um die News-Sektion anzuzeigen
-News.create(:title => "Deutschland vorab Weltmeister 2010", :text => "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.")
-News.create(:title => "", :text => "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.")
-News.create(:title => "Deutschland vorab Weltmeister 2010", :text => "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.")
+News.create(:headline => "Deutschland vorab Weltmeister 2010", :text => "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.")
+News.create(:headline => "Die Abende auf der W-JAX werden immer länger", :text => "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.")
+News.create(:headline => "Wo bitte geht's hier hin?", :text => "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.")
 
+# Systemeinstellungen
+# TIPP_STOP ist der Grenzwert für die Abgabe von Tipps vor Beginn eines Spiels
+Setting.create(:name => "TIPP_STOP", :value => "30")

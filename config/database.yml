@@ -1,67 +1,13 @@
-#development:
-#  encoding: utf8
-#  adapter: jdbcmysql
-#  database: tipptop_development
-#  pool: 5
-#  username: root
-#  password:
-#  host: localhost
-
-
-
-  # Connect on a TCP socket. Omitted by default since the client uses a
-  # domain socket that doesn't need configuration. Windows does not have
-  # domain sockets, so uncomment these lines.
-  #host: localhost
-  #port: 5432
-
-  # Schema search path. The server defaults to $user,public
-  #schema_search_path: myapp,sharedapp,public
-
-  # Minimum log levels, in increasing order:
-  #   debug5, debug4, debug3, debug2, debug1,
-  #   log, notice, warning, error, fatal, and panic
-  # The server defaults to notice.
-  #min_messages: warning
-
-# Warning: The database defined as "test" will be erased and
-# re-generated from your development database when you run "rake".
-# Do not set this db to the same as development or production.
-test:
-  encoding: utf8
-  adapter: jdbcmysql
-  database: tipptop_test
-  pool: 5
-  username: root
-  password:
-
-#production:
-# encoding: utf8
-#  adapter: jdbcmysql
-#  encoding: unicode
-#  database: tipptop_production
-#  pool: 5
-#  username: root
-#  password:
-
-
 development:
   adapter: jdbc
   driver: org.apache.derby.jdbc.ClientDriver
   url: jdbc:derby:tipptop_development;create=true
   username: app
   password: app
-#
-#test:
-#  adapter: jdbc
-#  driver: org.apache.derby.jdbc.ClientDriver
-#  url: jdbc:derby:tipptop_test;create=true
-#  username: app
-#  password: app
-#
+
 production:
   adapter: jdbc
   driver: org.apache.derby.jdbc.ClientDriver
-  url: jdbc:derby:tipptop_production;create=true
+  url: jdbc:derby:tipptop_development;create=false
   username: app
   password: app

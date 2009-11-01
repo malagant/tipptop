@@ -13,7 +13,39 @@ class Refresher
     end
 
     def refresh_gamers
-      
+      @games = Game.finished
+      @gamers = Gamer.all(:include => :tipps)
+
+      @gamers.each do |gamer|
+        gamer.points = 0
+        @games.each do |game|
+          @tipps = game.tipps
+          @tipps.each do |tipp|
+            if gamer == tipp.gamer
+              gamer.points += calculate_points(game.goals_team_one, game.goals_team_two,
+                                               tipp.goals_one, tipp.goals_two)
+            end
+          end
+        end
+        gamer.save!
+      end
+    end
+
+    # Calculate the points for this tipp
+    def calculate_points(game_goals_one, game_goals_two, goals_one, goals_two)
+      # Nichts richtig
+      points = 0
+      #Tendenz und Tore richtig
+      return points += 5 if game_goals_one == goals_one && game_goals_two == goals_two
+      # Tendenz und Torverhältnis richtig
+      return points += 4 if ((game_goals_one > game_goals_two && goals_one > goals_two) ||
+                             (game_goals_one < game_goals_two && goals_one < goals_two)) &&
+                             (game_goals_one - game_goals_two == goals_one - goals_two)
+      # Nur Tendenz richtig
+      return points += 3 if ((game_goals_one > game_goals_two && goals_one > goals_two) ||
+              (game_goals_one < game_goals_two && goals_one <= goals_two)
+      )
+      points
     end
 
     # Amount of games per team is updated based on finished games

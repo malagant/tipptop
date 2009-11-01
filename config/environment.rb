@@ -17,6 +17,7 @@ Rails::Initializer.run do |config|
   config.gem "activerecord-jdbcderby-adapter", :version => '0.9.2', :lib => 'active_record/connection_adapters/jdbcderby_adapter'
   config.gem 'authlogic'
   config.gem 'mongrel', :version => '1.1.5'
+  config.gem 'mislav-will_paginate', :lib => 'will_paginate'
   config.gem 'makandra-aegis', :lib => 'aegis', :version => '1.1.2'
   config.gem 'rubyist-aasm', :lib => 'aasm'
   config.gem 'rspec', :lib => 'spec'

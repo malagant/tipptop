@@ -2,7 +2,7 @@ class GamersController < ApplicationController
   before_filter :require_user
   
   def new
-    @gamer = current_user.gamer.new
+    @gamer = Gamer.new
   end
 
   def show
