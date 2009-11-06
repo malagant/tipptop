@@ -2,123 +2,15 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="b967e85f-db71-4b7f-a0b5-62a1f1d6b605" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20091007092146_add_points_to_gamers.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c101.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c281.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c241.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c4e0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c480.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c230.dat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20090928193136_create_users.rb" afterPath="$PROJECT_DIR$/db/migrate/20090928193136_create_users.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c380.dat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/news_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/news_helper.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c180.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/service.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/log/log.ctrl" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20091002143856_create_gamers.rb" afterPath="$PROJECT_DIR$/db/migrate/20091002143856_create_gamers.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c141.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/db.lck" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tipps/index.html.erb" afterPath="$PROJECT_DIR$/app/views/tipps/index.html.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c1c0.dat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/gamers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/gamers_controller.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c411.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c420.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c4a0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c10.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/cd1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c20.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c130.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c150.dat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c511.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c351.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c4d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c211.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c460.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c3c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c300.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c2e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c3a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c171.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c4c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c2d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c191.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c51.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c361.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c90.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/cb1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c71.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c3f1.dat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_news.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_news.html.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c161.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c1e0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c81.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c31.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/log/logmirror.ctrl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c340.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c121.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c451.dat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20091002173156_create_tipps.rb" afterPath="$PROJECT_DIR$/db/migrate/20091002173156_create_tipps.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/ce1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c331.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c41.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/ca1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c290.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c2c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/cc0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c1a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c520.dat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/log/log1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20090928195921_add_perishable_token_to_users.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c3e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c251.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c3d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c371.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20091007132901_add_role_name_to_users.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c3b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c1b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/dbex.lck" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c60.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c111.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c311.dat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/styles.css" afterPath="$PROJECT_DIR$/public/stylesheets/styles.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20090928195130_add_status_to_users.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c531.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c260.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c321.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c1d1.dat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/_row.html.erb" afterPath="$PROJECT_DIR$/app/views/games/_row.html.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c431.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c2b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c440.dat" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tipptop.iml" afterPath="$PROJECT_DIR$/.idea/tipptop.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c221.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/countries/pananma.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c2a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c491.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c4f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c400.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c200.dat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/refresher.rb" afterPath="$PROJECT_DIR$/app/models/refresher.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c500.dat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/news_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/news_controller.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c2f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/cf0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c471.dat" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tipps/_tipps.html.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c391.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c271.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c1f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tipptop_production/seg0/c4b1.dat" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/content/index.html.erb" afterPath="$PROJECT_DIR$/app/views/content/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gamers/new.html.erb" afterPath="$PROJECT_DIR$/app/views/gamers/new.html.erb" />
     </list>
-    <ignored path="tipptop_development/" />
-    <ignored path="tipptop.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="log/" />
+    <ignored path="tipptop.iws" />
+    <ignored path="tipptop_development/" />
     <ignored path="tipptop_production/" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="true" />
@@ -137,22 +29,22 @@
   <component name="DisabledGemRequirementsHolder">
     <module name="tipptop">
       <requirement>
-        <dependency name="rack-test" version="0.5.0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="webrat" version="0.5.0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="rack" version="1.0.0" bound="LATEST_IN_BRANCH" />
-      </requirement>
-      <requirement>
-        <dependency name="sinatra" version="0.9.4" bound="EQUAL" />
-      </requirement>
-      <requirement>
         <dependency name="mocha" version="0.9.7" bound="GREATER_OR_EQUAL" />
       </requirement>
       <requirement>
-        <dependency name="win32console" version="1.2.0" bound="GREATER_OR_EQUAL" />
+        <dependency name="rbench" version="0.2.3" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="test-unit" version="1.2.3" bound="EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="hoe" version="2.0.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="tzinfo" version="0.3.12" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="activerecord-jdbcmysql-adapter" version="0" bound="GREATER_OR_EQUAL" />
       </requirement>
       <requirement>
         <dependency name="builder" version="0" bound="GREATER_OR_EQUAL" />
@@ -161,55 +53,55 @@
         <dependency name="ramaze" version="2009.07" bound="GREATER_OR_EQUAL" />
       </requirement>
       <requirement>
-        <dependency name="aslakhellesoy-ansicolor" version="1.0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="genki-ruby-terminfo" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="rbench" version="0.2.3" bound="LATEST_IN_BRANCH" />
-      </requirement>
-      <requirement>
-        <dependency name="hoe" version="2.0.0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="spork" version="0.5.9" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="webrat" version="0.5.3" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <requirement>
-        <dependency name="addressable" version="2.0" bound="LATEST_IN_BRANCH" />
-      </requirement>
-      <requirement>
-        <dependency name="tzinfo" version="0.3.12" bound="LATEST_IN_BRANCH" />
+        <dependency name="term-ansicolor" version="0" bound="GREATER_OR_EQUAL" />
       </requirement>
       <requirement>
         <dependency name="memcache-client" version="1.7.4" bound="GREATER_OR_EQUAL" />
       </requirement>
       <requirement>
-        <dependency name="activerecord-jdbcmysql-adapter" version="0" bound="GREATER_OR_EQUAL" />
+        <dependency name="win32console" version="1.2.0" bound="GREATER_OR_EQUAL" />
       </requirement>
       <requirement>
-        <dependency name="text-format" version="0.6.3" bound="GREATER_OR_EQUAL" />
+        <dependency name="aslakhellesoy-ansicolor" version="1.0" bound="GREATER_OR_EQUAL" />
       </requirement>
       <requirement>
-        <dependency name="treetop" version="0" bound="GREATER_OR_EQUAL" />
+        <dependency name="webrat" version="0.5.3" bound="GREATER_OR_EQUAL" />
       </requirement>
       <requirement>
         <dependency name="faker" version="0.3.1" bound="LATEST_IN_BRANCH" />
       </requirement>
       <requirement>
-        <dependency name="term-ansicolor" version="0" bound="GREATER_OR_EQUAL" />
+        <dependency name="rack" version="1.0.0" bound="LATEST_IN_BRANCH" />
       </requirement>
       <requirement>
-        <dependency name="RedCloth" version="4.1.1" bound="GREATER_OR_EQUAL" />
+        <dependency name="genki-ruby-terminfo" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="webrat" version="0.5.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="addressable" version="2.0" bound="LATEST_IN_BRANCH" />
+      </requirement>
+      <requirement>
+        <dependency name="treetop" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="rack-test" version="0.5.0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="text-format" version="0.6.3" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="sinatra" version="0.9.4" bound="EQUAL" />
       </requirement>
       <requirement>
         <dependency name="builder" version="2.1.2" bound="LATEST_IN_BRANCH" />
       </requirement>
       <requirement>
-        <dependency name="test-unit" version="1.2.3" bound="EQUAL" />
+        <dependency name="spork" version="0.5.9" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <requirement>
+        <dependency name="RedCloth" version="4.1.1" bound="GREATER_OR_EQUAL" />
       </requirement>
     </module>
   </component>
@@ -219,82 +111,19 @@
   <component name="FileColors" enabled="false" enabledForTabs="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="refresher.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/refresher.rb">
+      <file leaf-file-name="refresher_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/refresher_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="42" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="-8.038462">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gamer_controller_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/controllers/gamer_controller_spec.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/content/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/integration/news_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news_routing_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/routing/news_routing_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/views/news/edit.html.erb_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hall_of_fame_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/hall_of_fame_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/hall_of_fame/index.js.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="622" column="51" selection-start="21797" selection-end="21797" vertical-scroll-proportion="0.0">
+            <state line="7" column="78" selection-start="584" selection-end="584" vertical-scroll-proportion="0.20684293">
               <folding />
             </state>
           </provider>
@@ -310,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/tipps_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/games/_row.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20091002173156_create_tipps.rb" />
@@ -326,6 +154,7 @@
         <option value="$PROJECT_DIR$/app/views/tipps/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/refresher.rb" />
         <option value="$PROJECT_DIR$/app/controllers/gamers_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/content/index.html.erb" />
       </list>
     </option>
   </component>
@@ -333,6 +162,7 @@
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
     <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -361,11 +191,6 @@
       <sortByType ProjectPane="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView">
-        <subPane />
-      </pane>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -469,6 +294,28 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tipptop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -490,18 +337,23 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
+      <pane id="RailsProjectView">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.updates" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.updates" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
-  <component name="RunManager" selected="Rake.stats">
+  <component name="RunManager" selected="Rails.Development: tipptop">
     <configuration default="false" name="routes" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="tipptop" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
@@ -804,7 +656,7 @@
     <option name="DETECT_NESTED_COPIES" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <configuration useDefault="true">/Users/mjohann/.subversion</configuration>
+    <configuration useDefault="true">$PROJECT_DIR$/../../../.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
@@ -815,10 +667,10 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.40650406" order="1" side_tool="true" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23782235" sideWeight="0.6612466" order="0" side_tool="false" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13538682" sideWeight="0.6612466" order="0" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972898" sideWeight="0.5" order="3" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.56639564" sideWeight="0.5" order="2" side_tool="false" x="38" y="113" width="1537" height="932" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.56639564" sideWeight="0.5" order="2" side_tool="false" x="38" y="113" width="1537" height="932" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
@@ -860,7 +712,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
-          <url>file:///Users/mjohann/projects/jruby/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/jdbc_adapter/jdbc_derby.rb</url>
+          <url>file://$PROJECT_DIR$/../../../projects/jruby/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/jdbc_adapter/jdbc_derby.rb</url>
           <line>218</line>
         </line-breakpoint>
       </breakpoints>
@@ -887,11 +739,6 @@
         <state line="5" column="64" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tipps/_tipps.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tipps/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="68" selection-start="430" selection-end="430" vertical-scroll-proportion="0.2887538" />
@@ -900,13 +747,6 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/gamers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.1388889" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/refresher.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="42" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/gamer_controller_spec.rb">
@@ -941,14 +781,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="622" column="51" selection-start="21797" selection-end="21797" vertical-scroll-proportion="0.0">
+        <state line="622" column="51" selection-start="21797" selection-end="21797" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/refresher_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="-8.038462">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hall_of_fame/index.js.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/content/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="7" column="78" selection-start="584" selection-end="584" vertical-scroll-proportion="0.20684293">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
