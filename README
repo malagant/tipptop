@@ -1,243 +1,1 @@
-== Welcome to Rails
-
-Rails is a web-application framework that includes everything needed to create 
-database-backed web applications according to the Model-View-Control pattern. 
-
-This pattern splits the view (also called the presentation) into "dumb" templates
-that are primarily responsible for inserting pre-built data in between HTML tags.
-The model contains the "smart" domain objects (such as Account, Product, Person,
-Post) that holds all the business logic and knows how to persist themselves to
-a database. The controller handles the incoming requests (such as Save New Account,
-Update Product, Show Post) by manipulating the model and directing data to the view.
-
-In Rails, the model is handled by what's called an object-relational mapping
-layer entitled Active Record. This layer allows you to present the data from
-database rows as objects and embellish these data objects with business logic
-methods. You can read more about Active Record in
-link:files/vendor/rails/activerecord/README.html.
-
-The controller and view are handled by the Action Pack, which handles both
-layers by its two parts: Action View and Action Controller. These two layers
-are bundled in a single package due to their heavy interdependence. This is
-unlike the relationship between the Active Record and Action Pack that is much
-more separate. Each of these packages can be used independently outside of
-Rails.  You can read more about Action Pack in
-link:files/vendor/rails/actionpack/README.html.
-
-
-== Getting Started
-
-1. At the command prompt, start a new Rails application using the <tt>rails</tt> command
-   and your application name. Ex: rails myapp
-2. Change directory into myapp and start the web server: <tt>script/server</tt> (run with --help for options)
-3. Go to http://localhost:3000/ and get "Welcome aboard: You're riding the Rails!"
-4. Follow the guidelines to start developing your application
-
-
-== Web Servers
-
-By default, Rails will try to use Mongrel if it's are installed when started with script/server, otherwise Rails will use WEBrick, the webserver that ships with Ruby. But you can also use Rails
-with a variety of other web servers.
-
-Mongrel is a Ruby-based webserver with a C component (which requires compilation) that is
-suitable for development and deployment of Rails applications. If you have Ruby Gems installed,
-getting up and running with mongrel is as easy as: <tt>gem install mongrel</tt>.
-More info at: http://mongrel.rubyforge.org
-
-Say other Ruby web servers like Thin and Ebb or regular web servers like Apache or LiteSpeed or
-Lighttpd or IIS. The Ruby web servers are run through Rack and the latter can either be setup to use
-FCGI or proxy to a pack of Mongrels/Thin/Ebb servers.
-
-== Apache .htaccess example for FCGI/CGI
-
-# General Apache options
-AddHandler fastcgi-script .fcgi
-AddHandler cgi-script .cgi
-Options +FollowSymLinks +ExecCGI
-
-# If you don't want Rails to look in certain directories,
-# use the following rewrite rules so that Apache won't rewrite certain requests
-# 
-# Example:
-#   RewriteCond %{REQUEST_URI} ^/notrails.*
-#   RewriteRule .* - [L]
-
-# Redirect all requests not available on the filesystem to Rails
-# By default the cgi dispatcher is used which is very slow
-# 
-# For better performance replace the dispatcher with the fastcgi one
-#
-# Example:
-#   RewriteRule ^(.*)$ dispatch.fcgi [QSA,L]
-RewriteEngine On
-
-# If your Rails application is accessed via an Alias directive,
-# then you MUST also set the RewriteBase in this htaccess file.
-#
-# Example:
-#   Alias /myrailsapp /path/to/myrailsapp/public
-#   RewriteBase /myrailsapp
-
-RewriteRule ^$ index.html [QSA]
-RewriteRule ^([^.]+)$ $1.html [QSA]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ dispatch.cgi [QSA,L]
-
-# In case Rails experiences terminal errors
-# Instead of displaying this message you can supply a file here which will be rendered instead
-# 
-# Example:
-#   ErrorDocument 500 /500.html
-
-ErrorDocument 500 "<h2>Application error</h2>Rails application failed to start properly"
-
-
-== Debugging Rails
-
-Sometimes your application goes wrong.  Fortunately there are a lot of tools that
-will help you debug it and get it back on the rails.
-
-First area to check is the application log files.  Have "tail -f" commands running
-on the server.log and development.log. Rails will automatically display debugging
-and runtime information to these files. Debugging info will also be shown in the
-browser on requests from 127.0.0.1.
-
-You can also log your own messages directly into the log file from your code using
-the Ruby logger class from inside your controllers. Example:
-
-  class WeblogController < ActionController::Base
-    def destroy
-      @weblog = Weblog.find(params[:id])
-      @weblog.destroy
-      logger.info("#{Time.now} Destroyed Weblog ID ##{@weblog.id}!")
-    end
-  end
-
-The result will be a message in your log file along the lines of:
-
-  Mon Oct 08 14:22:29 +1000 2007 Destroyed Weblog ID #1
-
-More information on how to use the logger is at http://www.ruby-doc.org/core/
-
-Also, Ruby documentation can be found at http://www.ruby-lang.org/ including:
-
-* The Learning Ruby (Pickaxe) Book: http://www.ruby-doc.org/docs/ProgrammingRuby/
-* Learn to Program: http://pine.fm/LearnToProgram/  (a beginners guide)
-
-These two online (and free) books will bring you up to speed on the Ruby language
-and also on programming in general.
-
-
-== Debugger
-
-Debugger support is available through the debugger command when you start your Mongrel or
-Webrick server with --debugger. This means that you can break out of execution at any point
-in the code, investigate and change the model, AND then resume execution! 
-You need to install ruby-debug to run the server in debugging mode. With gems, use 'gem install ruby-debug'
-Example:
-
-  class WeblogController < ActionController::Base
-    def index
-      @posts = Post.find(:all)
-      debugger
-    end
-  end
-
-So the controller will accept the action, run the first line, then present you
-with a IRB prompt in the server window. Here you can do things like:
-
-  >> @posts.inspect
-  => "[#<Post:0x14a6be8 @attributes={\"title\"=>nil, \"body\"=>nil, \"id\"=>\"1\"}>,
-       #<Post:0x14a6620 @attributes={\"title\"=>\"Rails you know!\", \"body\"=>\"Only ten..\", \"id\"=>\"2\"}>]"
-  >> @posts.first.title = "hello from a debugger"
-  => "hello from a debugger"
-
-...and even better is that you can examine how your runtime objects actually work:
-
-  >> f = @posts.first
-  => #<Post:0x13630c4 @attributes={"title"=>nil, "body"=>nil, "id"=>"1"}>
-  >> f.
-  Display all 152 possibilities? (y or n)
-
-Finally, when you're ready to resume execution, you enter "cont"
-
-
-== Console
-
-You can interact with the domain model by starting the console through <tt>script/console</tt>.
-Here you'll have all parts of the application configured, just like it is when the
-application is running. You can inspect domain models, change values, and save to the
-database. Starting the script without arguments will launch it in the development environment.
-Passing an argument will specify a different environment, like <tt>script/console production</tt>.
-
-To reload your controllers and models after launching the console run <tt>reload!</tt>
-
-== dbconsole
-
-You can go to the command line of your database directly through <tt>script/dbconsole</tt>.
-You would be connected to the database with the credentials defined in database.yml.
-Starting the script without arguments will connect you to the development database. Passing an
-argument will connect you to a different database, like <tt>script/dbconsole production</tt>.
-Currently works for mysql, postgresql and sqlite.
-
-== Description of Contents
-
-app
-  Holds all the code that's specific to this particular application.
-
-app/controllers
-  Holds controllers that should be named like weblogs_controller.rb for
-  automated URL mapping. All controllers should descend from ApplicationController
-  which itself descends from ActionController::Base.
-
-app/models
-  Holds models that should be named like post.rb.
-  Most models will descend from ActiveRecord::Base.
-
-app/views
-  Holds the template files for the view that should be named like
-  weblogs/index.html.erb for the WeblogsController#index action. All views use eRuby
-  syntax.
-
-app/views/layouts
-  Holds the template files for layouts to be used with views. This models the common
-  header/footer method of wrapping views. In your views, define a layout using the
-  <tt>layout :default</tt> and create a file named default.html.erb. Inside default.html.erb,
-  call <% yield %> to render the view using this layout.
-
-app/helpers
-  Holds view helpers that should be named like weblogs_helper.rb. These are generated
-  for you automatically when using script/generate for controllers. Helpers can be used to
-  wrap functionality for your views into methods.
-
-config
-  Configuration files for the Rails environment, the routing map, the database, and other dependencies.
-
-db
-  Contains the database schema in schema.rb.  db/migrate contains all
-  the sequence of Migrations for your schema.
-
-doc
-  This directory is where your application documentation will be stored when generated
-  using <tt>rake doc:app</tt>
-
-lib
-  Application specific libraries. Basically, any kind of custom code that doesn't
-  belong under controllers, models, or helpers. This directory is in the load path.
-
-public
-  The directory available for the web server. Contains subdirectories for images, stylesheets,
-  and javascripts. Also contains the dispatchers and the default HTML files. This should be
-  set as the DOCUMENT_ROOT of your web server.
-
-script
-  Helper scripts for automation and generation.
-
-test
-  Unit and functional tests along with fixtures. When using the script/generate scripts, template
-  test files will be generated for you and placed in this directory.
-
-vendor
-  External libraries that the application depends on. Also includes the plugins subdirectory.
-  If the app has frozen rails, those gems also go here, under vendor/rails/.
-  This directory is in the load path.
+TippTop.net – Beitrag zur W-JAX Challenge mit JRuby on RailsAutor: Michael JohannLocation: www.tipptop.net (Kurz vor der W-JAX online)Steckbrief1.      Welche Architektur- und Designentscheidungen wurde getroffen und warum?Die Anwendung basiert auf JRuby in Zusammenspiel mit dem MVC-Framework Ruby on Rails. JRuby ist 100 % kompatibel mit Ruby on Rails und kann somit Rails-Anwendungen ohne Änderungen auf einer JVM laufen lassen. Als bekennender Rails-Switcher sind die folgenden Merkmale von Rails in Bezug auf die Webanwendung ausschlaggebend:- MVC basiert- Convention over Configuration- Don’t repeat yourself (Deutlich bei der View-Entwicklung zu sehen, Stichwort Partials)- Ruby als produktivitätssteigernde dynamische Programmiersprache- Mongrel als HTTP-Server (Clusterfähig)- JRuby als native threaded Ablaufumgebung mit der Möglichkeit bei Bedarf jede beliebige Java-Klasse zu integrieren und zur Laufzeit dynamisch zu erweitern.- Plugin-Architektur (Benutzerverwaltung, Rollen, Statemachine)Die folgende Tabelle kann mit jeder Railsanwendung generiert werden und verdeutlicht, dass der reine Anwendungscode (ohne Views) kaum mehr als 800 Zeilen umfasst. Damit ist klar, dass ein einzelner Entwickler in nur rund 6 Personentagen die vorliegende Anwendung programmieren, testen und designen kann:+----------------------+-------+-------+---------+---------+-----+-------+| Name                 | Lines |   LOC | Classes | Methods | M/C | LOC/M |+----------------------+-------+-------+---------+---------+-----+-------+| Controllers          |   496 |   405 |      14 |      59 |   4 |     4 || Helpers              |   101 |    91 |       0 |      10 |   0 |     7 || Models               |   419 |   332 |      16 |      39 |   2 |     6 || Libraries            |     0 |     0 |       0 |       0 |   0 |     0 || Integration tests    |     0 |     0 |       0 |       0 |   0 |     0 || Functional tests     |    32 |    24 |       4 |       0 |   0 |     0 || Unit tests           |    56 |    42 |       9 |       0 |   0 |     0 || Model specs          |   133 |   117 |       0 |       0 |   0 |     0 || View specs           |   229 |   180 |       0 |       0 |   0 |     0 || Controller specs     |   295 |   228 |       0 |       1 |   0 |   226 || Helper specs         |    99 |    63 |       0 |       0 |   0 |     0 || Routing specs        |    63 |    49 |       0 |       0 |   0 |     0 || Integration specs    |     4 |     3 |       0 |       0 |   0 |     0 |+----------------------+-------+-------+---------+---------+-----+-------+| Total                |  1927 |  1534 |      43 |     109 |   2 |    12 |+----------------------+-------+-------+---------+---------+-----+-------+  Code LOC: 828     Test LOC: 706     Code to Test Ratio: 1:0.92.      Welche Framework-Auswahl wurde getroffen?Ruby on Rails ist das Framework der Wahl (siehe Punkt 1).3.      Schnellanleitung für die Installation (inkl. notwendiger Zusatzkomponenten)Die Anwendung kommt komplett daher. Das beiliegende Ant-Skript startet unter einem Unix-System mit vorhandener JVM direkt mit folgendem Aufruf:$ antDie Datenbank (Derby) ist bereits vorhanden und kann bei Bedarf auch neu generiert werden. Hierzu wird folgender Ant-Aufruf benötigt:$ ant setupMehr ist nicht notwendig. Da die Datenbank praktisch embedded läuft ist noch zu beachten, dass nur eine Connection zur Verfügung steht, so dass die Anwendung vor der Nutzung eines Datenbankadmintools beendet werden muss.Es sind keine weiteren Zusatzkomponenten zu installieren.4.      Wo liegen die Logfiles?Die Logfiles liegen unter /tipptop/logs. Konkret startet die Anwendung im development mode, was für eine Beurteilung völlig ok ist. Im Log ist nach der Registriereung von neuen Benutzern auch der Aktivierungscode für den Account zu sehen, der dann von der Jury kopiert und in die URL eingefügt werden muss, weil die Anwendung nicht nach draußen „funkt“ (d.h. es werden keine echten Emails versandt).5.      Kurze Anleitung zur Anwendung selbst (gern auch im Punkt 3 integriert)Nach Start der Anwendung ist diese unter der URL http://localhost:3000 verfügbar. Basis ist HTML, CSS und JavaScript mit teilweiser AJAX-Funktionalität (Spielersuche).Die folgende Abbildung zeigt den Startbildschirm:Im Menü können die Punkte Home, Spielplan, Gruppen, Hall of Fame und Konto angewählt werden. Diese Punkte werden im Folgenden näher erklärt.- HomeHiermit kann typischerweise auf die Startseite verzweigt werden. Eine besondere Funktionalität ist hier nicht vorhanden- SpielplanDer Spielplan ist zweigeteilt in die Übersicht der Vorrundenspiele (Gruppenspiele) und in die Finalrunden. Laut Spezifikation wurden nur die Gruppenspiele gefordert. Die Finalrunden werden soweit bekannt in der Datei db/seeds.rb in der Datenbank definiert. Hier kann der Programmcode entsprechend um den Abgleich für die Finalrunden erweitert werden. Zentraler Ansgriffspunkt ist hier die Klasse Refresher (Datei app/models/refresher.rb). Im Refresher werden bisher auch die Abgleiche für die Hall of Fame sowie die Gruppenplatzierungen vorgenommen. Im Spielplan kann man sofort tippen, sobald man sich angemeldet und ein Spielerprofil angelegt hat. Entsprechende Icons für die unterschiedlichen Aktionen helfen bei der Aktionswahl. Ist ein Tipp für ein Spiel vorgenommen worden, wird dieser neben dem Spiel angezeigt. Eine Änderung des Tipps kann bis 30 Minuten vor Spielbeginn vorgenommen werden. Ist eine Änderung oder die Eingabe eines Tipps nicht mehr möglich, wird dies durch ein Stoppschild signalisiert. In der Administratorrolle kann ein Spiel vom Administrator gesteuert werden. Hierzu ist es möglich, ein Spiel zu starten und im Verlauf die Zischenergebnisse einzupflegen. Auf Wunsch des Administrators ist ein Abgleich des Systems möglich, wobei Ergebnisse erst nach vorheriger Beendigung eines Spiels in die Wertung einfließen.- GruppenIn der Gruppenansicht sind die Gruppen A bis H aufgelistet. Ist man als Administrator angemeldet, erscheint ein Stift als Hinweis auf die Bearbeitungsfunktion. Der Administrator kann die Mannschaft sowie die Flagge für eine Mannschaft festlegen.- Hall of FameIn dieser Ansicht sind die 10 besten Tippspieler aufgelistet. Diese Liste wird allerdings erst sichtbar, wenn sich ein Benutzer angemeldet hat. Hierzu ist es nicht nötig, ein Spielerprofil anzulegen. Die Links der bestplatzierten führen direkt zu den Tipps, die nur angezeigt werden, wenn ein Spiel angepfiffen oder beendet wurde. Die Suchfunktion ist mit Hilfe von jQuery (jRails-Plugin) und AJAX-Autocomplete implementiert. Gibt man also einen Buchstaben in das Suchfeld ein, wird im Hintergrund die Datenbank abgefragt und Vorschläge für die Spielernamen angezeigt. Der Benutzer kann dann einen Eintrag auswählen und dann auf die Seite des Benutzers verzweigen.- KontoHier kann ein Benutzer je nach Status ein Spielerprofil anlegen oder bearbeiten. Ein weiterer Link führt zur eigenen Liste der abgegebenen Tipps. Der Administrator findet unter diesem Menüpunkt zwei Links für die Anpassung von Systemparametern und den Start eines Abgleichs.Rechts nebem dem Hauptbildschirm sind zwei weitere Sidebar-Bereiche vorhanden. Unter dem Twitter-Account tipptopdotnet habe ich entsprechend einige Tweets erstellt, die während der Nutzung angezeigt werden. Darunter ist eine Auflistung der drei aktuellsten Nachrichten (http://localhost:3000/news) implementiert (Zusatzfunktionalität).Im Bereich der Fußzeile sind einige Links zu den Spielbedingungen und das Impressum zu finden.6.      Schritt-für-Schritt-Anleitung für einen typischen Use-Case („Meine Anwendung in 10 Minuten“)Im Folgenden werden zwei Use-Cases beschrieben. Zum Einen ist es ein Use-Case für den Tippspieler und zum Anderen für den Administrator.Tippspieler- RegistrierungAuf der Startseite findet man einen Link zur Registrierung.Daraufhin wird das Registrierungsformular gezeigt.Hier müssen alle Felder ausgefüllt werden. Eine Validierung prüft Formate und vorhande Nicknames.- AktivierungNach dem Abschicken des Formulars wird im Logfile /log/development.log ein Aktivierungslink ausgegeben, der im Produktionsbetrieb per Email versandt wird. Dieser Link muss im Browser eingegeben werden, damit das Nutzerkonto aktiviert wird.[exec] Sent mail to malagant1969@googlemail.com[exec] [exec] Date: Wed, 28 Oct 2009 21:10:52 +0100[exec] From: =?utf-8?Q?Wettb=9Fro_TippTop?= <noreply@tipptop.net>     [exec] To: malagant1969@googlemail.com[exec] Subject: Bitte aktivieren Sie Ihr Konto bei TippTop[exec] Mime-Version: 1.0[exec] Content-Type: text/plain; charset=utf-8[exec] [exec] Hi,[exec] [exec] please confirm your registration:[exec] http://tipptop.net/confirmation/Pp1kcQYE4J8_tPkPUmb3[exec] [exec] Thanks!Nach erfolgter Aktivierung kann sich der Benutzer anmelden. Alternativ existieren drei vorgefertige Konten:mjohann@rails-experts.com (Passwort: topsecret) Rolle: Gamerspacken@spacken.eu (Passwort: topsecret) Rolle: Gamerbla@bla.com (Passwort: topsecret) Rolle: GuestDie Accounts werden in der Datei db/seeds.rb angelegt und sind direkt nach dem Aufsetzen der Datenbank verfügbar.- Spielerprofil anlegenVor dem Spielen muss noch ein Spielerprofil erstellt werden. Hierzu klickt der Benutzer auf den Menüpunkt „Konto“ und dann auf „Spielerdetails anlegen“.Danach ist ein Spielerprofil für den angemeldeten Benutzer definiert worden und es können Tipps abgegeben werden.- Tipp abgebenMit einem Klick auf den Menüpunkt „Spielplan“ kann der Spieler nun seine Tipps abgeben. Beispiel: Erstes Spiel.Mit einem Klick auf das Lampensymbol wird ein Formular zur Abgabe eines Tipps anzeigt.Nach Eingabe der Tore wird der Tipp im System hinterlegt.- Tipp ändernEin Tipp kann bis 30 Minuten vor Spielbeginn geändert werden. Hierzu ist ein Klick auf den Stift notwendig. Soll ein Tipp zurückgezogen werden, muss das rote X angeklickt werden.Jeder Benutzer interessiert sich für die Tipps der anderen Spieler. Hierzu dient die Hall of Fame, die im Use-Case des Administrators gezeigt wird.Administrator- Anmeldung als AdminDer einzige Administrator im System ist admin@tipptop.net (Passwort: topsecret). Wenn man sich mit diesen Angaben anmeldet erhält man Adminrechter für die Anwendung. Der Administrator kann selbst nicht tippen.Mit einem Klick auf den Stift wird folgendes Formular angezeigt.- Spiel startenDamit der Use-Case fortlaufen kann, muss der Administrator nun das Spiel starten. Danach wird automatisch in den Spielplan verzweigt und angezeigt, dass das Spiel gestartet wurde.- Spiel beendenWenn das Spiel gelaufen ist, kann der Administrator das Spiel beenden. Hierzu muss er wieder in die Bearbeitung des Spiels wechseln und den folgenden Link anklicken.- Ergebniss erfassenDas Ergebniss eines Spiels wird im Dialog eingegeben. Mit einem Klick auf „Speichern“ wird das Ergebnis festgelegt.- Abgleich startenAuf der Seite „Konto“ des Administrators kann mit einem Klick auf „Abgleich starten“ eine Neuberechnung der Gruppenstatistik und der „Hall of Fame“ ausgelöst werden.- Hall of Fame anzeigenNach einem Abgleich kann mit einem Klick auf den Menüpunkt „Hall of Fame“ in die Spielerstatistik gewechselt werden.- Gruppenübersicht anzeigenMit einem Klick auf den Menüpunkt „Gruppen“ kann die Gruppensicht aufgerufen werden.7.      Kurze Angaben zur Testbarkeit und ErweiterbarkeitEs sind rund 700 Zeilen Testcode nach Behavior Driven Development mit rSpec generiert worden. Diese finden sich in den Unterverzeichnissen zu /spec. Aus Zeitgründen sind keine spezialisierten Tests erstellt worden.Die Anwendung ist wie jede Ruby on Rails Anwendung strukturiert und kann entsprechend leicht erweitert werden.In der Datei /config/database.yml kann mit ein paar Zeilen eine komplett andere Datenbank genutzt werden (z.B. MySQL).Durch Erweiterung der Controller-Responses ist leicht eine WebService-API zu realisieren (jeweils mit ein paar Zeilen Code).8.      Wo lohnt es sich, besonders hinzusehen?- LayoutDas Layout ist in /app/views/layouts/application.html.erb definiert und stellt das Grundlayout für alle Views bereit. Unterstützt wird das Layout von CSS und jQuery.- PartialsPartials sind wie Portlets und können zur redundanzfreien Entwicklung der Oberflächen genutzt werden. Partials, wie die Login-Info, der Twitter-Bereich und das Menü finden sich in /app/views/shared und verdeutlichen den Gebrauch.- StatemachineEin Plugin (AASM = Acts_as_state_machine) sorgt für dynamische Methoden, die nur zur Laufzeit existieren und Transitionen bereitsstellen, um den Status von Objekten wie den Usern oder der Spiele nachzuführen.So kann ein User beispielsweise vom initialen Status „pending“ zu „confirmed“ wechseln. Der passende Code kann in /app/models/user.rb untersucht werden.- SeedingDie Initialbefüllung der Datenbank erfolgt mit Hilfe des Ruby-Skripts in der Datei /db/seeds.rb. Das komplette Schema ist in /db/schema.rb zu finden. Damit sind SQL-spezifische Statements ausgeschlossen und die Datenbank kann beliebig ausgetauscht werden.- Autocomplete bei SuchfunktionIm Dialog für die Suche in der „Hall of Fame“ wurde ein jQuery-Autocomplete eingebaut, um den Gebrauch von AJAX zu demonstrieren. Sicher hätte die Anwendung bei mehr Zeit an vielen Stellen Ajaxifiziert werden können.Der Code hierzu findet sich in den Dateien:/public/javascripts/application.js/app/controller/hall_of_fame.rb (Dort findet sich im respond_to-Block eine einzige Zeile, die auf das JavaScript-Format abzielt.) Diese sorgt dafür, dass anstelle einer HTML-View ein JavaScript-Template an den Client geschickt wird./app/views/hall_of_fame/index.js.erbEin paar CSS-Styles sorgen für die Dropdown-Liste im Suchfeld.- Refresher für den SystemabgleichDer Refresher wird über einen Link ausgelöst. Die Klasse Refresher findet sich in der Datei /app/models/refresher.rbDer Refresher führt die Auswertung der Tipps und der Gruppenlisten durch.9.      Warum sollte eure Anwendung gewinnen?Das ist relativ einfach. Die Challenge soll sicher auch den Teilnehmern der Konferenz zeigen, dass die genutzte Technik für alltagstaugliche Projekte eingesetzt werden kann. Und da zählen Produktivität, Lines of Code, Strukturierung, Interoperabilität.Dazu kann ich folgende Fakten beisteuern:- Eine Person hat rund 6 Personentage benötigt, um die Anwendung zu erstellen. Dabei ist jeder Rails-Kenner in der Lage, die Anwendung zu warten und zu erweitern, ohne die sonst übliche Packagestruktur typischer Java-Anwendungen auskunschaften zu müssen. Das erhöht die Produktivität enorm.- Ruby Code ist sehr gut lesbar im Vergleich zu anderen Sprachen (Groovy, Scala und Java)- Die Plugin-Architektur erlaubt redundanzfreien Code und eine schnelle Realisierung von Querschnittsfunktionen (Benutzer-Rollen-Konzept, Paginierung).- JRuby als Ablaufumgebung bietet die Interoperabilität typischer Java-Anwendungen.- Der Anwendungscode umfasst lediglich 828 Zeilen Code.Viele Grüße und vielen Dank für Eure ArbeitMichael Johann
